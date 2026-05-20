@@ -3,16 +3,26 @@
 !.gitignore
 
 !fish/
+!fish/**
 !alacritty/
+!alacritty/**
 !kitty/
+!kitty/**
 !wezterm/
+!wezterm/**
 
 !git/
+!git/**
 
 !nvim/
+!nvim/**
 !vim/
+!vim/**
 
 !niri/
-!Olympus
-!noctalia
+!niri/**
+!Olympus/
+!Olympus/**
+!noctalia/
+!noctalia/**
 
