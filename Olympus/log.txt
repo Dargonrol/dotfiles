@@ -1,75 +1,89 @@
-[2026-05-20 16:09:32] [dbg] [conf] pre-initializing
-[2026-05-20 16:09:32] [dbg] [conf] cwd: /usr/lib/olympus
-[2026-05-20 16:09:32] [dbg] [conf] src: /usr/lib/olympus
-[2026-05-20 16:09:32] [dbg] [conf] storageDir: /home/dargonrol/.config/Olympus
-[2026-05-20 16:09:32] [inf] [conf] storageDir is missing - creating
-[2026-05-20 16:09:32] [dbg] [conf] true
-[2026-05-20 16:09:32] [dbg] [conf] pre-initialized
-[2026-05-20 16:09:33] [dbg] [main] This is Olympus.Lua version 26.05.03.03-arch-5596-77210
-[2026-05-20 16:09:33] [dbg] [sharp.thread] [init] starting thread
-[2026-05-20 16:09:33] [dbg] [sharp.thread] [init] starting subprocess /usr/lib/olympus/sharp/Olympus.Sharp 69451
-[2026-05-20 16:09:33] [dbg] [sharp.thread] [init] logging to /home/dargonrol/.config/Olympus/log-sharp.txt
-[2026-05-20 16:09:33] [dbg] [sharp.thread] [init] reading init
-[2026-05-20 16:09:33] [dbg] [sharp.thread] [init] read init table: 0x7f19dce9d268
-[2026-05-20 16:09:33] [dbg] [sharp.thread] [init] startime 1779286173.3013
-[2026-05-20 16:09:33] [dbg] [main] Olympus version was transmitted to sharp: ok
-[2026-05-20 16:09:33] [inf] [main] Connection with Olympus.Sharp is OK!
-[2026-05-20 16:09:33] [dbg] [main] love2d version 11.5.0.Mysterious Mysteries
-[2026-05-20 16:09:33] [dbg] [main] SDL2 version 2.32.68
-[2026-05-20 16:09:33] [dbg] [finder] steam root /home/dargonrol/.local/share/Steam <same>
-[2026-05-20 16:09:33] [dbg] [finder] steam common /home/dargonrol/.local/share/Steam/steamapps/common
-[2026-05-20 16:09:33] [dbg] [finder] steam common /home/dargonrol/.local/share/Steam/steamapps/common
-[2026-05-20 16:09:33] [dbg] [finder] steam additional library /home/dargonrol/.local/share/Steam/steamapps/common
-[2026-05-20 16:09:33] [dbg] [finder] steam install /home/dargonrol/.local/share/Steam/steamapps/common/Celeste
-[2026-05-20 16:09:33] [dbg] [finder] steam install /home/dargonrol/.local/share/Steam/steamapps/common/Celeste
-[2026-05-20 16:09:33] [dbg] [finder] steam root /home/dargonrol/.local/share/Steam <same>
-[2026-05-20 16:09:33] [dbg] [finder] itch db /home/dargonrol/.config/itch/db/butler.db false
-[2026-05-20 16:09:33] [dbg] [finder] lutris db /home/dargonrol/.local/share/lutris/pga.db false
-[2026-05-20 16:09:33] [dbg] [finder] lutris root /home/dargonrol/.config/lutris false
-[2026-05-20 16:09:33] [dbg] [finder] legendary root /home/dargonrol/.config/legendary false
-[2026-05-20 16:09:33] [inf] [finder] found Celeste.exe root /home/dargonrol/.local/share/Steam/steamapps/common/Celeste
-[2026-05-20 16:09:33] [inf] [finder] found Celeste.exe root /home/dargonrol/.local/share/Steam/steamapps/common/Celeste
-[2026-05-20 16:09:38] [dbg] [finder] steam root /home/dargonrol/.local/share/Steam <same>
-[2026-05-20 16:09:38] [dbg] [finder] steam common /home/dargonrol/.local/share/Steam/steamapps/common
-[2026-05-20 16:09:38] [dbg] [finder] steam common /home/dargonrol/.local/share/Steam/steamapps/common
-[2026-05-20 16:09:38] [dbg] [finder] steam additional library /home/dargonrol/.local/share/Steam/steamapps/common
-[2026-05-20 16:09:38] [dbg] [finder] steam install /home/dargonrol/.local/share/Steam/steamapps/common/Celeste
-[2026-05-20 16:09:38] [dbg] [finder] steam install /home/dargonrol/.local/share/Steam/steamapps/common/Celeste
-[2026-05-20 16:09:38] [dbg] [finder] steam root /home/dargonrol/.local/share/Steam <same>
-[2026-05-20 16:09:38] [dbg] [finder] itch db /home/dargonrol/.config/itch/db/butler.db false
-[2026-05-20 16:09:38] [dbg] [finder] lutris db /home/dargonrol/.local/share/lutris/pga.db false
-[2026-05-20 16:09:38] [dbg] [finder] lutris root /home/dargonrol/.config/lutris false
-[2026-05-20 16:09:38] [dbg] [finder] legendary root /home/dargonrol/.config/legendary false
-[2026-05-20 16:09:38] [inf] [finder] found Celeste.exe root /home/dargonrol/.local/share/Steam/steamapps/common/Celeste
-[2026-05-20 16:09:38] [inf] [finder] found Celeste.exe root /home/dargonrol/.local/share/Steam/steamapps/common/Celeste
-[2026-05-20 16:09:40] [dbg] [finder] steam root /home/dargonrol/.local/share/Steam <same>
-[2026-05-20 16:09:40] [dbg] [finder] steam common /home/dargonrol/.local/share/Steam/steamapps/common
-[2026-05-20 16:09:40] [dbg] [finder] steam common /home/dargonrol/.local/share/Steam/steamapps/common
-[2026-05-20 16:09:40] [dbg] [finder] steam additional library /home/dargonrol/.local/share/Steam/steamapps/common
-[2026-05-20 16:09:40] [dbg] [finder] steam install /home/dargonrol/.local/share/Steam/steamapps/common/Celeste
-[2026-05-20 16:09:40] [dbg] [finder] steam install /home/dargonrol/.local/share/Steam/steamapps/common/Celeste
-[2026-05-20 16:09:40] [dbg] [finder] steam root /home/dargonrol/.local/share/Steam <same>
-[2026-05-20 16:09:40] [dbg] [finder] itch db /home/dargonrol/.config/itch/db/butler.db false
-[2026-05-20 16:09:40] [dbg] [finder] lutris db /home/dargonrol/.local/share/lutris/pga.db false
-[2026-05-20 16:09:40] [dbg] [finder] lutris root /home/dargonrol/.config/lutris false
-[2026-05-20 16:09:40] [dbg] [finder] legendary root /home/dargonrol/.config/legendary false
-[2026-05-20 16:09:40] [inf] [finder] found Celeste.exe root /home/dargonrol/.local/share/Steam/steamapps/common/Celeste
-[2026-05-20 16:09:40] [inf] [finder] found Celeste.exe root /home/dargonrol/.local/share/Steam/steamapps/common/Celeste
-[2026-05-20 16:09:43] [dbg] [mainmenu] Everest version string is
-[2026-05-20 16:09:43] [wrn] [mainmenu] Defaulting to stable branch!
-[2026-05-20 16:09:44] [dbg] [mainmenu] Latest stable  version found: 6305
-[2026-05-20 16:09:45] [dbg] [mainmenu] Everest version string is
-[2026-05-20 16:09:45] [wrn] [mainmenu] Defaulting to stable branch!
-[2026-05-20 16:09:45] [dbg] [mainmenu] Latest stable  version found: 6305
-[2026-05-20 16:10:13] [dbg] [mainmenu] Everest version string is 1.6305.0-azure-1b9d1-stable , extracted number 6305 and branch stable
-[2026-05-20 16:10:13] [dbg] [mainmenu] Everest version string is 1.6305.0-azure-1b9d1-stable , extracted number 6305 and branch stable
-[2026-05-20 16:10:13] [dbg] [mainmenu] Latest stable  version found: 6305
-[2026-05-20 16:10:13] [dbg] [mainmenu] Latest stable  version found: 6305
-[2026-05-20 16:10:19] [dbg] [mainmenu] Everest version string is 1.6305.0-azure-1b9d1-stable , extracted number 6305 and branch stable
-[2026-05-20 16:10:19] [dbg] [mainmenu] Latest stable  version found: 6305
-[2026-05-20 16:10:23] [dbg] [mainmenu] Everest version string is 1.6305.0-azure-1b9d1-stable , extracted number 6305 and branch stable
-[2026-05-20 16:10:23] [dbg] [mainmenu] Latest stable  version found: 6305
-[2026-05-20 16:13:42] [dbg] [mainmenu] Everest version string is 1.6305.0-azure-1b9d1-stable , extracted number 6305 and branch stable
-[2026-05-20 16:13:42] [dbg] [mainmenu] Latest stable  version found: 6305
-[2026-05-20 16:13:56] [dbg] [mainmenu] Everest version string is 1.6305.0-azure-1b9d1-stable , extracted number 6305 and branch stable
-[2026-05-20 16:13:56] [dbg] [mainmenu] Latest stable  version found: 6305
+[2026-05-23 04:27:06] [dbg] [conf] pre-initializing
+[2026-05-23 04:27:06] [dbg] [conf] cwd: /usr/lib/olympus
+[2026-05-23 04:27:06] [dbg] [conf] src: /usr/lib/olympus
+[2026-05-23 04:27:06] [dbg] [conf] storageDir: /home/dargonrol/.config/Olympus
+[2026-05-23 04:27:06] [wrn] [finder] found install root without Celeste.exe or Celeste.dll /home/dargonrol/.local/share/Steam/steamapps/common/Celeste
+[2026-05-23 04:27:06] [wrn] [finder] found install root without Celeste.exe or Celeste.dll /home/dargonrol/.local/share/Steam/steamapps/common/Celeste
+[2026-05-23 04:27:06] [dbg] [conf] pre-initialized
+[2026-05-23 04:27:07] [dbg] [main] This is Olympus.Lua version 26.05.03.03-arch-5596-77210
+[2026-05-23 04:27:07] [dbg] [sharp.thread] [init] starting thread
+[2026-05-23 04:27:07] [dbg] [sharp.thread] [init] starting subprocess /usr/lib/olympus/sharp/Olympus.Sharp 200431
+[2026-05-23 04:27:07] [dbg] [sharp.thread] [init] logging to /home/dargonrol/.config/Olympus/log-sharp.txt
+[2026-05-23 04:27:07] [dbg] [sharp.thread] [init] reading init
+[2026-05-23 04:27:07] [dbg] [sharp.thread] [init] read init table: 0x7f9816e925d0
+[2026-05-23 04:27:07] [dbg] [sharp.thread] [init] startime 1779503227.2434
+[2026-05-23 04:27:07] [dbg] [main] Olympus version was transmitted to sharp: ok
+[2026-05-23 04:27:07] [inf] [main] Connection with Olympus.Sharp is OK!
+[2026-05-23 04:27:07] [wrn] [finder] found install root without Celeste.exe or Celeste.dll /home/dargonrol/.local/share/Steam/steamapps/common/Celeste
+[2026-05-23 04:27:07] [dbg] [main] love2d version 11.5.0.Mysterious Mysteries
+[2026-05-23 04:27:07] [dbg] [main] SDL2 version 2.32.68
+[2026-05-23 04:27:07] [dbg] [finder] steam root /home/dargonrol/.local/share/Steam <same>
+[2026-05-23 04:27:07] [dbg] [finder] steam common /home/dargonrol/.local/share/Steam/steamapps/common
+[2026-05-23 04:27:07] [dbg] [finder] steam common /home/dargonrol/.local/share/Steam/steamapps/common
+[2026-05-23 04:27:07] [dbg] [finder] steam additional library /home/dargonrol/.local/share/Steam/steamapps/common
+[2026-05-23 04:27:07] [dbg] [finder] steam common /mnt/games_ssd/SteamLibrary/steamapps/common
+[2026-05-23 04:27:07] [dbg] [finder] steam additional library /mnt/games_ssd/SteamLibrary/steamapps/common
+[2026-05-23 04:27:07] [dbg] [finder] steam common /mnt/games_nvme/SteamLibrary/steamapps/common
+[2026-05-23 04:27:07] [dbg] [finder] steam additional library /mnt/games_nvme/SteamLibrary/steamapps/common
+[2026-05-23 04:27:07] [dbg] [finder] steam install /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste
+[2026-05-23 04:27:07] [dbg] [finder] steam root /home/dargonrol/.local/share/Steam <same>
+[2026-05-23 04:27:07] [dbg] [finder] itch db /home/dargonrol/.config/itch/db/butler.db false
+[2026-05-23 04:27:07] [dbg] [finder] lutris db /home/dargonrol/.local/share/lutris/pga.db false
+[2026-05-23 04:27:07] [dbg] [finder] lutris root /home/dargonrol/.config/lutris false
+[2026-05-23 04:27:07] [dbg] [finder] legendary root /home/dargonrol/.config/legendary false
+[2026-05-23 04:27:07] [wrn] [finder] found install root without Celeste.exe or Celeste.dll /home/dargonrol/.local/share/Steam/steamapps/common/Celeste
+[2026-05-23 04:27:07] [inf] [finder] found Celeste.exe root /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste
+[2026-05-23 04:27:13] [dbg] [finder] steam root /home/dargonrol/.local/share/Steam <same>
+[2026-05-23 04:27:13] [dbg] [finder] steam common /home/dargonrol/.local/share/Steam/steamapps/common
+[2026-05-23 04:27:13] [dbg] [finder] steam common /home/dargonrol/.local/share/Steam/steamapps/common
+[2026-05-23 04:27:13] [dbg] [finder] steam additional library /home/dargonrol/.local/share/Steam/steamapps/common
+[2026-05-23 04:27:13] [dbg] [finder] steam common /mnt/games_ssd/SteamLibrary/steamapps/common
+[2026-05-23 04:27:13] [dbg] [finder] steam additional library /mnt/games_ssd/SteamLibrary/steamapps/common
+[2026-05-23 04:27:13] [dbg] [finder] steam common /mnt/games_nvme/SteamLibrary/steamapps/common
+[2026-05-23 04:27:13] [dbg] [finder] steam additional library /mnt/games_nvme/SteamLibrary/steamapps/common
+[2026-05-23 04:27:13] [dbg] [finder] steam install /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste
+[2026-05-23 04:27:13] [dbg] [finder] steam root /home/dargonrol/.local/share/Steam <same>
+[2026-05-23 04:27:13] [dbg] [finder] itch db /home/dargonrol/.config/itch/db/butler.db false
+[2026-05-23 04:27:13] [dbg] [finder] lutris db /home/dargonrol/.local/share/lutris/pga.db false
+[2026-05-23 04:27:13] [dbg] [finder] lutris root /home/dargonrol/.config/lutris false
+[2026-05-23 04:27:13] [dbg] [finder] legendary root /home/dargonrol/.config/legendary false
+[2026-05-23 04:27:14] [inf] [finder] found Celeste.exe root /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste
+[2026-05-23 04:27:16] [dbg] [finder] steam root /home/dargonrol/.local/share/Steam <same>
+[2026-05-23 04:27:16] [dbg] [finder] steam common /home/dargonrol/.local/share/Steam/steamapps/common
+[2026-05-23 04:27:16] [dbg] [finder] steam common /home/dargonrol/.local/share/Steam/steamapps/common
+[2026-05-23 04:27:16] [dbg] [finder] steam additional library /home/dargonrol/.local/share/Steam/steamapps/common
+[2026-05-23 04:27:16] [dbg] [finder] steam common /mnt/games_ssd/SteamLibrary/steamapps/common
+[2026-05-23 04:27:16] [dbg] [finder] steam additional library /mnt/games_ssd/SteamLibrary/steamapps/common
+[2026-05-23 04:27:16] [dbg] [finder] steam common /mnt/games_nvme/SteamLibrary/steamapps/common
+[2026-05-23 04:27:16] [dbg] [finder] steam additional library /mnt/games_nvme/SteamLibrary/steamapps/common
+[2026-05-23 04:27:16] [dbg] [finder] steam install /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste
+[2026-05-23 04:27:16] [dbg] [finder] steam root /home/dargonrol/.local/share/Steam <same>
+[2026-05-23 04:27:16] [dbg] [finder] itch db /home/dargonrol/.config/itch/db/butler.db false
+[2026-05-23 04:27:16] [dbg] [finder] lutris db /home/dargonrol/.local/share/lutris/pga.db false
+[2026-05-23 04:27:16] [dbg] [finder] lutris root /home/dargonrol/.config/lutris false
+[2026-05-23 04:27:16] [dbg] [finder] legendary root /home/dargonrol/.config/legendary false
+[2026-05-23 04:27:16] [inf] [finder] found Celeste.exe root /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste
+[2026-05-23 04:27:34] [dbg] [finder] steam root /home/dargonrol/.local/share/Steam <same>
+[2026-05-23 04:27:34] [dbg] [finder] steam common /home/dargonrol/.local/share/Steam/steamapps/common
+[2026-05-23 04:27:34] [dbg] [finder] steam common /home/dargonrol/.local/share/Steam/steamapps/common
+[2026-05-23 04:27:34] [dbg] [finder] steam additional library /home/dargonrol/.local/share/Steam/steamapps/common
+[2026-05-23 04:27:34] [dbg] [finder] steam common /mnt/games_ssd/SteamLibrary/steamapps/common
+[2026-05-23 04:27:34] [dbg] [finder] steam additional library /mnt/games_ssd/SteamLibrary/steamapps/common
+[2026-05-23 04:27:34] [dbg] [finder] steam common /mnt/games_nvme/SteamLibrary/steamapps/common
+[2026-05-23 04:27:34] [dbg] [finder] steam additional library /mnt/games_nvme/SteamLibrary/steamapps/common
+[2026-05-23 04:27:34] [dbg] [finder] steam install /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste
+[2026-05-23 04:27:34] [dbg] [finder] steam root /home/dargonrol/.local/share/Steam <same>
+[2026-05-23 04:27:34] [dbg] [finder] itch db /home/dargonrol/.config/itch/db/butler.db false
+[2026-05-23 04:27:34] [dbg] [finder] lutris db /home/dargonrol/.local/share/lutris/pga.db false
+[2026-05-23 04:27:34] [dbg] [finder] lutris root /home/dargonrol/.config/lutris false
+[2026-05-23 04:27:34] [dbg] [finder] legendary root /home/dargonrol/.config/legendary false
+[2026-05-23 04:27:34] [inf] [finder] found Celeste.exe root /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste
+[2026-05-23 04:27:43] [dbg] [mainmenu] Everest version string is
+[2026-05-23 04:27:43] [wrn] [mainmenu] Defaulting to stable branch!
+[2026-05-23 04:27:43] [dbg] [mainmenu] Latest stable  version found: 6305
+[2026-05-23 04:28:28] [dbg] [mainmenu] Everest version string is 1.6305.0-azure-1b9d1-stable , extracted number 6305 and branch stable
+[2026-05-23 04:28:28] [dbg] [mainmenu] Everest version string is 1.6305.0-azure-1b9d1-stable , extracted number 6305 and branch stable
+[2026-05-23 04:28:28] [dbg] [mainmenu] Latest stable  version found: 6305
+[2026-05-23 04:28:28] [dbg] [mainmenu] Latest stable  version found: 6305
+[2026-05-23 04:30:43] [dbg] [mainmenu] Everest version string is 1.6305.0-azure-1b9d1-stable , extracted number 6305 and branch stable
+[2026-05-23 04:30:43] [dbg] [mainmenu] Latest stable  version found: 6305
