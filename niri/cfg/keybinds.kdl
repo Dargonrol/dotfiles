@@ -148,4 +148,6 @@ binds {
     // CUSTOM
     MOD+N                               { spawn "bash" "-c" "~/.config/niri/scripts/gammastep-toggle.sh"; }
     MOD+M				{ spawn "bash" "-c" "~/.config/niri/scripts/bg-audio-toggle.sh"; }
+    MOD+SHIFT+M				{ spawn "bash" "-c" "~/.config/niri/scripts/raise-bg-audio.sh"; }
+    MOD+CTRL+M				{ spawn "bash" "-c" "~/.config/niri/scripts/lower-bg-audio.sh"; }
 }

@@ -1,41 +1,41 @@
 {
+  "mirrorPreferences":"gb,jade,otobot,wegfan",
+  "installs":[{
+      "path":"/mnt/games_nvme/SteamLibrary/steamapps/common/Celeste",
+      "type":"steam",
+      "name":"steam (#2)"
+    }],
+  "apiMirror":false,
+  "imageMirror":"jade",
+  "closeAfterOneClickInstall":"disabled",
+  "language":"en",
+  "csd":false,
   "extradata":[],
   "theme":"default",
   "bg":0,
   "quality":{
-    "bg":true,
     "id":"high",
+    "bgSnow":true,
     "bgBlur":true,
-    "bgSnow":true
+    "bg":true
   },
   "overlay":1,
   "parallax":1,
   "mapeditor":"loenn",
   "ahorn":{
-    "vhdMountPath":"",
-    "theme":"",
     "mode":"local",
+    "theme":"",
+    "vhdMountPath":"",
     "rootPath":"",
     "vhdPath":""
   },
+  "useOpenGL":"disabled",
   "vsync":true,
   "updates":"stable",
   "loennRootPath":"/home/dargonrol/.config/Olympus/loenn",
   "loennInstalledVersion":"",
   "updateModsOnStartup":"none",
-  "useOpenGL":"disabled",
-  "currentrun":5596,
-  "lastrun":5596,
   "install":1,
-  "installs":[{
-      "type":"steam",
-      "name":"steam (#2)",
-      "path":"/mnt/games_nvme/SteamLibrary/steamapps/common/Celeste"
-    }],
-  "apiMirror":false,
-  "imageMirror":"jade",
-  "mirrorPreferences":"gb,jade,otobot,wegfan",
-  "closeAfterOneClickInstall":"disabled",
-  "language":"en",
-  "csd":false
+  "currentrun":5596,
+  "lastrun":5596
 }

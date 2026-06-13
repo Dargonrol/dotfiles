@@ -20,3 +20,26 @@
         match namespace="^noctalia-wallpaper*"
         place-within-backdrop true
     }
+
+    window-rule {
+	match app-id="cava-bar"
+	open-floating true
+
+	default-column-width { proportion 1.0; }
+
+	default-window-height { fixed 220; }
+	//default-window-width { fixed 900; }
+
+	default-floating-position x=500 y=800
+    }
+
+    window-rule {
+	match app-id="matrix"
+	open-floating true
+
+	default-column-width {proportion 1.0; }
+
+	default-window-height { fixed 600; }
+
+	default-floating-position x=0 y=0
+    }

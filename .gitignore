@@ -26,3 +26,5 @@
 !noctalia/
 !noctalia/**
 
+!dconf/**
+!dconf/
