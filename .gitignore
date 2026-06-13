@@ -28,3 +28,6 @@
 
 !dconf/**
 !dconf/
+
+!audio/
+!audio/**

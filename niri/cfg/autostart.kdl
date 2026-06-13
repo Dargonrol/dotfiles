@@ -4,3 +4,4 @@
     spawn-sh-at-startup "qs -c noctalia-shell"
     spawn-sh-at-startup "gammastep -O 3500"
     spawn-sh-at-startup "sh -c 'mpvpaper -o \"loop input-ipc-server=/tmp/mpvpaper.sock volume=60\" \"*\" \"$HOME/.config/niri/background/bg-vid.webm\"'"
+    spawn-sh-at-startup "~/.config/niri/scripts/audio.sh"
