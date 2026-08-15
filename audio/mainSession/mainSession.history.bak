@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UndoHistory>
+  <UndoTransaction timestamp="2026-06-18T14:50:29.492683+02" name="cut MIDI">
+    <MementoCommand obj-id="48" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1628" left-frame="0" y-origin="0">
+        <Selection>
+          <StripableView id="537"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="1628" left-frame="0" y-origin="0">
+        <Selection>
+          <StripableView id="537"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+</UndoHistory>

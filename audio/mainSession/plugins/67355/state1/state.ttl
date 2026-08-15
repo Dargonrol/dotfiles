@@ -1,0 +1,14 @@
+@prefix atom: <http://lv2plug.in/ns/ext/atom#> .
+@prefix lv2: <http://lv2plug.in/ns/lv2core#> .
+@prefix pset: <http://lv2plug.in/ns/ext/presets#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<>
+	a pset:Preset ;
+	lv2:appliesTo <https://github.com/werman/noise-suppression-for-voice#mono> ;
+	state:state [
+		<https://github.com/werman/noise-suppression-for-voice#mono:StateString> "247.VMjLg3N....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOR4jSuk1bk4COPEjTA0DHoQVOhzVZ3IBH1EFa0UVOhDiKvHxK9vCTAIUPMARZj0iH1EFYeclbgMVYeAWYxk1ajIBH1EFa0UVOhHCLt.iHu3COPEjTA0DHoQVOhXWXj8kbkQmbuE1Xzklck80YxE1Xk8EbkIWZuQlHfXWXrUWY8HBLt.iHu3COPEjTA0DHoQVOhXWXj8EcnIWYyg1arQlHfXWXrUWY8HBLtfCM4jSN4jiMzHyL2HSLyDiHu3COuHkSN8VZyUlO.."
+	] .
