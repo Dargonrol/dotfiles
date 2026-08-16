@@ -32,4 +32,7 @@
 !audio/
 !audio/**
 
+!zathura/
+!zathura/**
+
 !README.md

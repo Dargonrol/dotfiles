@@ -1,0 +1,12 @@
+set selection-clipboard clipboard
+
+set adkust-open "width"
+
+set scroll-step 50
+
+set hlsearch true
+
+set recolor-lightcolor         "#1E1E2E" # Page background
+set default-bg                 "#181825" # Window background
+
+set recolor-keephue "true"

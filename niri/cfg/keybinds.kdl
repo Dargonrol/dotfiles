@@ -13,7 +13,7 @@ binds {
     Mod+CTRL+Return                     hotkey-overlay-title="Open App Launcher: noctalia launcher" { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
     Mod+D                               hotkey-overlay-title="Open App Launcher: noctalia launcher" { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
     Mod+B                               hotkey-overlay-title="Open Browser: firefox" { spawn "firefox"; }
-    Mod+ALT+L                           hotkey-overlay-title="Lock Screen: noctalia lock" { spawn-sh "qs -c noctalia-shell ipc call lockScreen lock"; }
+    // Mod+ALT+L                           hotkey-overlay-title="Lock Screen: noctalia lock" { spawn-sh "qs -c noctalia-shell ipc call lockScreen lock"; }
     Mod+Shift+Q                        hotkey-overlay-title="Session Menu: noctalia sessionMenu" { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
 
     // Please choose your own file manager.
@@ -122,10 +122,13 @@ binds {
     Mod+CTRL+F                          { expand-column-to-available-width; }
     Mod+C                               { center-column; }
     Mod+CTRL+C                          { center-visible-columns; }
-    Mod+Minus                           { set-column-width "-10%"; }
-    Mod+Equal                           { set-column-width "+10%"; }
-    Mod+Shift+Minus                     { set-window-height "-10%"; }
-    Mod+Shift+Equal                     { set-window-height "+10%"; }
+    Mod+ALT+H                           { set-column-width "-2%"; }
+    Mod+ALT+L                           { set-column-width "+2%"; }
+    Mod+ALT+J                     	{ set-window-height "-2%"; }
+    Mod+ALT+K                     	{ set-window-height "+2%"; }
+    Mod+R				{ switch-preset-column-width; }
+    Mod+Udiaeresis			{ consume-or-expel-window-left; }
+    Mod+plus				{ consume-or-expel-window-right; }
 
     // ─── Modes ───
     Mod+T                               { toggle-window-floating; }
