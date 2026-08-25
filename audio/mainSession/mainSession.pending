@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7003" uuid="7fecc0e3-fcd4-4b40-8465-2c6f6cf0c7b5" name="mainSession" sample-rate="48000" session-range-is-free="1" id-counter="76455" rg-counter="20" name-counter="4" event-counter="32894970" vca-counter="1">
+<Session version="7003" uuid="7fecc0e3-fcd4-4b40-8465-2c6f6cf0c7b5" name="mainSession" sample-rate="48000" session-range-is-free="1" id-counter="92773" rg-counter="20" name-counter="4" event-counter="33486444" vca-counter="1">
   <ProgramVersion created-with="Ardour 9.2" modified-with="Ardour 9.7"/>
   <EngineState>
     <PortEngine backend="ALSA" driver="" input-device="M4" output-device="M4"/>
@@ -81,7 +81,7 @@
   <TriggerBindings/>
   <Regions/>
   <Selection>
-    <StripableAutomationControl stripable="537" control="0" order="0"/>
+    <StripableAutomationControl stripable="177" control="0" order="0"/>
   </Selection>
   <Locations/>
   <Bundles/>
@@ -134,7 +134,7 @@
         <AutomationList automation-id="phase" id="91" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="97" flags="" value="0.5"/>
+        <Controllable name="pan-azimuth" id="97" flags="" value="0.51111114025115967"/>
         <Controllable name="pan-width" id="101" flags="" value="0"/>
         <Controllable name="pan-elevation" id="99" flags="" value="0"/>
         <Controllable name="pan-frontback" id="103" flags="" value="0"/>
@@ -281,7 +281,7 @@
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state12">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state20">
           <Port symbol="enabled" value="0"/>
           <Port symbol="input" value="31.622428894042969"/>
           <Port symbol="mode" value="0"/>
@@ -310,7 +310,7 @@
         <Controllable name="Clean hard-clipping indicators" id="48073" flags="Toggle" value="0" parameter="13" symbol="hcclean"/>
         <Controllable name="Equalization curve is shown relative to the volume" id="48075" flags="Toggle" value="0" parameter="14" symbol="relspec"/>
       </Processor>
-      <Processor id="67355" name="Noise Suppressor for Voice (Mono)" active="1" user-latency="0" use-user-latency="0" type="ladspa" unique-id="9354877" count="1" custom="0">
+      <Processor id="67355" name="Noise Suppressor for Voice (Mono)" active="0" user-latency="0" use-user-latency="0" type="ladspa" unique-id="9354877" count="1" custom="0">
         <Automation>
           <AutomationList automation-id="parameter-2" id="67356" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
           <AutomationList automation-id="parameter-3" id="67358" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
@@ -406,7 +406,7 @@
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state12">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state20">
           <Port symbol="showpmx" value="0"/>
           <Port symbol="in2lk" value="0"/>
           <Port symbol="lk2in" value="0"/>
@@ -484,7 +484,67 @@
         <Controllable name="Gain reduction visibility" id="48156" flags="Toggle" value="1" parameter="38" symbol="grv"/>
         <Controllable name="Input level visibility" id="48158" flags="Toggle" value="1" parameter="39" symbol="ilv"/>
         <Controllable name="Output level visibility" id="48160" flags="Toggle" value="1" parameter="40" symbol="olv"/>
-        <Controllable name="property-http://lsp-plug.in/plugins/lv2/expander_mono/ports#link" id="74682" flags="NotAutomatable" property="202"/>
+        <Controllable name="property-http://lsp-plug.in/plugins/lv2/expander_mono/ports#link" id="90970" flags="NotAutomatable" property="202"/>
+      </Processor>
+      <Processor id="92745" name="Calf Reverb" active="0" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Reverb" count="1" custom="0">
+        <Automation>
+          <AutomationList automation-id="parameter-7" id="92746" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="92748" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="92750" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-10" id="92752" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-11" id="92754" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-12" id="92756" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-13" id="92758" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-14" id="92760" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-15" id="92762" interpolation-style="Logarithmic" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-16" id="92764" interpolation-style="Discrete" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-17" id="92766" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+          <AutomationList automation-id="parameter-18" id="92768" interpolation-style="Linear" time-domain="AudioTime" state="Off"/>
+        </Automation>
+        <ConfiguredInput>
+          <Channels type="audio" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0">
+          <Port symbol="decay_time" value="1.5"/>
+          <Port symbol="hf_damp" value="5000"/>
+          <Port symbol="room_size" value="2"/>
+          <Port symbol="diffusion" value="0.5"/>
+          <Port symbol="amount" value="0.25"/>
+          <Port symbol="dry" value="1"/>
+          <Port symbol="predelay" value="0"/>
+          <Port symbol="bass_cut" value="300"/>
+          <Port symbol="treble_cut" value="5000"/>
+          <Port symbol="on" value="1"/>
+          <Port symbol="level_in" value="1"/>
+          <Port symbol="level_out" value="1"/>
+        </lv2>
+        <Controllable name="Decay time" id="92747" flags="" value="1.5" parameter="7" symbol="decay_time"/>
+        <Controllable name="High Frq Damp" id="92749" flags="" value="5000" parameter="8" symbol="hf_damp"/>
+        <Controllable name="Room size" id="92751" flags="" value="2" parameter="9" symbol="room_size"/>
+        <Controllable name="Diffusion" id="92753" flags="" value="0.5" parameter="10" symbol="diffusion"/>
+        <Controllable name="Wet Amount" id="92755" flags="" value="0.25" parameter="11" symbol="amount"/>
+        <Controllable name="Dry Amount" id="92757" flags="" value="1" parameter="12" symbol="dry"/>
+        <Controllable name="Pre Delay" id="92759" flags="" value="0" parameter="13" symbol="predelay"/>
+        <Controllable name="Bass Cut" id="92761" flags="" value="300" parameter="14" symbol="bass_cut"/>
+        <Controllable name="Treble Cut" id="92763" flags="" value="5000" parameter="15" symbol="treble_cut"/>
+        <Controllable name="Active" id="92765" flags="Toggle" value="1" parameter="16" symbol="on"/>
+        <Controllable name="Input Gain" id="92767" flags="" value="1" parameter="17" symbol="level_in"/>
+        <Controllable name="Output Gain" id="92769" flags="" value="1" parameter="18" symbol="level_out"/>
       </Processor>
       <Processor id="45473" name="LSP Gate Mono" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://lsp-plug.in/plugins/lv2/gate_mono" count="1" custom="0">
         <Automation>
@@ -545,7 +605,7 @@
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state13">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state21">
           <Port symbol="showpmx" value="0"/>
           <Port symbol="in2lk" value="0"/>
           <Port symbol="lk2in" value="0"/>
@@ -625,7 +685,7 @@
         <Controllable name="Gain reduction visibility" id="45547" flags="Toggle" value="1" parameter="41" symbol="grv"/>
         <Controllable name="Input level visibility" id="45549" flags="Toggle" value="1" parameter="42" symbol="ilv"/>
         <Controllable name="Output level visibility" id="45551" flags="Toggle" value="1" parameter="43" symbol="olv"/>
-        <Controllable name="property-http://lsp-plug.in/plugins/lv2/gate_mono/ports#link" id="74763" flags="NotAutomatable" property="267"/>
+        <Controllable name="property-http://lsp-plug.in/plugins/lv2/gate_mono/ports#link" id="91051" flags="NotAutomatable" property="267"/>
       </Processor>
       <Processor id="3213" name="LSP Compressor Mono" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://lsp-plug.in/plugins/lv2/compressor_mono" count="1" custom="0">
         <Automation>
@@ -687,7 +747,7 @@
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state32">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state40">
           <Port symbol="showpmx" value="0"/>
           <Port symbol="in2lk" value="0"/>
           <Port symbol="lk2in" value="0"/>
@@ -769,7 +829,7 @@
         <Controllable name="Gain reduction visibility" id="3289" flags="Toggle" value="1" parameter="40" symbol="grv"/>
         <Controllable name="Input level visibility" id="3291" flags="Toggle" value="1" parameter="41" symbol="ilv"/>
         <Controllable name="Output level visibility" id="3293" flags="Toggle" value="1" parameter="42" symbol="olv"/>
-        <Controllable name="property-http://lsp-plug.in/plugins/lv2/compressor_mono/ports#link" id="74846" flags="NotAutomatable" property="336"/>
+        <Controllable name="property-http://lsp-plug.in/plugins/lv2/compressor_mono/ports#link" id="91134" flags="NotAutomatable" property="336"/>
       </Processor>
       <Processor id="229" name="meter-Audio 1" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="230" name="MotuIN" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="MotuIN" type="main-outs" role="Main">
@@ -1338,7 +1398,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state34">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state42">
           <Port symbol="volume" value="0"/>
           <Port symbol="num_voices" value="256"/>
           <Port symbol="oversampling" value="1"/>
@@ -1366,392 +1426,392 @@
         <Controllable name="Freewheeling Sample quality" id="730" flags="" value="10" parameter="20" symbol="freewheeling_sample_quality"/>
         <Controllable name="Freewheeling Oscillator quality" id="732" flags="" value="3" parameter="21" symbol="freewheeling_oscillator_quality"/>
         <Controllable name="Sustain cancels release" id="734" flags="Toggle" value="0" parameter="22" symbol="sustain_cancels_release"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz:sfzfile" id="75043" flags="NotAutomatable" property="393"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz:tuningfile" id="75044" flags="NotAutomatable" property="394"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc128" id="75046" flags="" property="533"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc129" id="75048" flags="" property="534"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc130" id="75050" flags="" property="535"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc131" id="75052" flags="" property="536"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc132" id="75054" flags="" property="537"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc133" id="75056" flags="" property="538"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc134" id="75058" flags="" property="539"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc135" id="75060" flags="" property="540"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc136" id="75062" flags="" property="541"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc137" id="75064" flags="" property="542"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc138" id="75066" flags="" property="543"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc139" id="75068" flags="" property="544"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc140" id="75070" flags="" property="545"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc141" id="75072" flags="" property="546"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc142" id="75074" flags="" property="547"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc143" id="75076" flags="" property="548"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc144" id="75078" flags="" property="549"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc145" id="75080" flags="" property="550"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc146" id="75082" flags="" property="551"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc147" id="75084" flags="" property="552"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc148" id="75086" flags="" property="553"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc149" id="75088" flags="" property="554"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc150" id="75090" flags="" property="555"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc151" id="75092" flags="" property="556"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc152" id="75094" flags="" property="557"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc153" id="75096" flags="" property="558"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc154" id="75098" flags="" property="559"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc155" id="75100" flags="" property="560"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc156" id="75102" flags="" property="561"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc157" id="75104" flags="" property="562"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc158" id="75106" flags="" property="563"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc159" id="75108" flags="" property="564"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc160" id="75110" flags="" property="565"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc161" id="75112" flags="" property="566"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc162" id="75114" flags="" property="567"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc163" id="75116" flags="" property="568"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc164" id="75118" flags="" property="569"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc165" id="75120" flags="" property="570"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc166" id="75122" flags="" property="571"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc167" id="75124" flags="" property="572"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc168" id="75126" flags="" property="573"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc169" id="75128" flags="" property="574"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc170" id="75130" flags="" property="575"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc171" id="75132" flags="" property="576"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc172" id="75134" flags="" property="577"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc173" id="75136" flags="" property="578"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc174" id="75138" flags="" property="579"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc175" id="75140" flags="" property="580"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc176" id="75142" flags="" property="581"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc177" id="75144" flags="" property="582"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc178" id="75146" flags="" property="583"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc179" id="75148" flags="" property="584"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc180" id="75150" flags="" property="585"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc181" id="75152" flags="" property="586"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc182" id="75154" flags="" property="587"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc183" id="75156" flags="" property="588"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc184" id="75158" flags="" property="589"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc185" id="75160" flags="" property="590"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc186" id="75162" flags="" property="591"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc187" id="75164" flags="" property="592"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc188" id="75166" flags="" property="593"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc189" id="75168" flags="" property="594"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc190" id="75170" flags="" property="595"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc191" id="75172" flags="" property="596"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc192" id="75174" flags="" property="597"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc193" id="75176" flags="" property="598"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc194" id="75178" flags="" property="599"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc195" id="75180" flags="" property="600"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc196" id="75182" flags="" property="601"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc197" id="75184" flags="" property="602"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc198" id="75186" flags="" property="603"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc199" id="75188" flags="" property="604"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc200" id="75190" flags="" property="605"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc201" id="75192" flags="" property="606"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc202" id="75194" flags="" property="607"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc203" id="75196" flags="" property="608"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc204" id="75198" flags="" property="609"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc205" id="75200" flags="" property="610"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc206" id="75202" flags="" property="611"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc207" id="75204" flags="" property="612"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc208" id="75206" flags="" property="613"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc209" id="75208" flags="" property="614"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc210" id="75210" flags="" property="615"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc211" id="75212" flags="" property="616"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc212" id="75214" flags="" property="617"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc213" id="75216" flags="" property="618"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc214" id="75218" flags="" property="619"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc215" id="75220" flags="" property="620"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc216" id="75222" flags="" property="621"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc217" id="75224" flags="" property="622"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc218" id="75226" flags="" property="623"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc219" id="75228" flags="" property="624"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc220" id="75230" flags="" property="625"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc221" id="75232" flags="" property="626"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc222" id="75234" flags="" property="627"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc223" id="75236" flags="" property="628"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc224" id="75238" flags="" property="629"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc225" id="75240" flags="" property="630"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc226" id="75242" flags="" property="631"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc227" id="75244" flags="" property="632"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc228" id="75246" flags="" property="633"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc229" id="75248" flags="" property="634"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc230" id="75250" flags="" property="635"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc231" id="75252" flags="" property="636"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc232" id="75254" flags="" property="637"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc233" id="75256" flags="" property="638"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc234" id="75258" flags="" property="639"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc235" id="75260" flags="" property="640"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc236" id="75262" flags="" property="641"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc237" id="75264" flags="" property="642"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc238" id="75266" flags="" property="643"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc239" id="75268" flags="" property="644"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc240" id="75270" flags="" property="645"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc241" id="75272" flags="" property="646"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc242" id="75274" flags="" property="647"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc243" id="75276" flags="" property="648"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc244" id="75278" flags="" property="649"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc245" id="75280" flags="" property="650"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc246" id="75282" flags="" property="651"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc247" id="75284" flags="" property="652"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc248" id="75286" flags="" property="653"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc249" id="75288" flags="" property="654"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc250" id="75290" flags="" property="655"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc251" id="75292" flags="" property="656"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc252" id="75294" flags="" property="657"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc253" id="75296" flags="" property="658"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc254" id="75298" flags="" property="659"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc255" id="75300" flags="" property="660"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc256" id="75302" flags="" property="661"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc257" id="75304" flags="" property="662"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc258" id="75306" flags="" property="663"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc259" id="75308" flags="" property="664"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc260" id="75310" flags="" property="665"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc261" id="75312" flags="" property="666"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc262" id="75314" flags="" property="667"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc263" id="75316" flags="" property="668"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc264" id="75318" flags="" property="669"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc265" id="75320" flags="" property="670"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc266" id="75322" flags="" property="671"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc267" id="75324" flags="" property="672"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc268" id="75326" flags="" property="673"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc269" id="75328" flags="" property="674"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc270" id="75330" flags="" property="675"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc271" id="75332" flags="" property="676"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc272" id="75334" flags="" property="677"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc273" id="75336" flags="" property="678"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc274" id="75338" flags="" property="679"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc275" id="75340" flags="" property="680"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc276" id="75342" flags="" property="681"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc277" id="75344" flags="" property="682"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc278" id="75346" flags="" property="683"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc279" id="75348" flags="" property="684"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc280" id="75350" flags="" property="685"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc281" id="75352" flags="" property="686"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc282" id="75354" flags="" property="687"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc283" id="75356" flags="" property="688"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc284" id="75358" flags="" property="689"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc285" id="75360" flags="" property="690"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc286" id="75362" flags="" property="691"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc287" id="75364" flags="" property="692"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc288" id="75366" flags="" property="693"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc289" id="75368" flags="" property="694"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc290" id="75370" flags="" property="695"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc291" id="75372" flags="" property="696"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc292" id="75374" flags="" property="697"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc293" id="75376" flags="" property="698"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc294" id="75378" flags="" property="699"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc295" id="75380" flags="" property="700"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc296" id="75382" flags="" property="701"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc297" id="75384" flags="" property="702"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc298" id="75386" flags="" property="703"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc299" id="75388" flags="" property="704"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc300" id="75390" flags="" property="705"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc301" id="75392" flags="" property="706"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc302" id="75394" flags="" property="707"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc303" id="75396" flags="" property="708"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc304" id="75398" flags="" property="709"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc305" id="75400" flags="" property="710"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc306" id="75402" flags="" property="711"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc307" id="75404" flags="" property="712"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc308" id="75406" flags="" property="713"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc309" id="75408" flags="" property="714"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc310" id="75410" flags="" property="715"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc311" id="75412" flags="" property="716"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc312" id="75414" flags="" property="717"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc313" id="75416" flags="" property="718"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc314" id="75418" flags="" property="719"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc315" id="75420" flags="" property="720"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc316" id="75422" flags="" property="721"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc317" id="75424" flags="" property="722"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc318" id="75426" flags="" property="723"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc319" id="75428" flags="" property="724"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc320" id="75430" flags="" property="725"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc321" id="75432" flags="" property="726"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc322" id="75434" flags="" property="727"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc323" id="75436" flags="" property="728"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc324" id="75438" flags="" property="729"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc325" id="75440" flags="" property="730"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc326" id="75442" flags="" property="731"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc327" id="75444" flags="" property="732"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc328" id="75446" flags="" property="733"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc329" id="75448" flags="" property="734"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc330" id="75450" flags="" property="735"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc331" id="75452" flags="" property="736"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc332" id="75454" flags="" property="737"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc333" id="75456" flags="" property="738"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc334" id="75458" flags="" property="739"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc335" id="75460" flags="" property="740"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc336" id="75462" flags="" property="741"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc337" id="75464" flags="" property="742"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc338" id="75466" flags="" property="743"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc339" id="75468" flags="" property="744"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc340" id="75470" flags="" property="745"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc341" id="75472" flags="" property="746"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc342" id="75474" flags="" property="747"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc343" id="75476" flags="" property="748"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc344" id="75478" flags="" property="749"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc345" id="75480" flags="" property="750"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc346" id="75482" flags="" property="751"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc347" id="75484" flags="" property="752"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc348" id="75486" flags="" property="753"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc349" id="75488" flags="" property="754"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc350" id="75490" flags="" property="755"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc351" id="75492" flags="" property="756"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc352" id="75494" flags="" property="757"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc353" id="75496" flags="" property="758"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc354" id="75498" flags="" property="759"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc355" id="75500" flags="" property="760"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc356" id="75502" flags="" property="761"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc357" id="75504" flags="" property="762"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc358" id="75506" flags="" property="763"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc359" id="75508" flags="" property="764"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc360" id="75510" flags="" property="765"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc361" id="75512" flags="" property="766"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc362" id="75514" flags="" property="767"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc363" id="75516" flags="" property="768"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc364" id="75518" flags="" property="769"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc365" id="75520" flags="" property="770"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc366" id="75522" flags="" property="771"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc367" id="75524" flags="" property="772"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc368" id="75526" flags="" property="773"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc369" id="75528" flags="" property="774"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc370" id="75530" flags="" property="775"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc371" id="75532" flags="" property="776"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc372" id="75534" flags="" property="777"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc373" id="75536" flags="" property="778"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc374" id="75538" flags="" property="779"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc375" id="75540" flags="" property="780"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc376" id="75542" flags="" property="781"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc377" id="75544" flags="" property="782"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc378" id="75546" flags="" property="783"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc379" id="75548" flags="" property="784"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc380" id="75550" flags="" property="785"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc381" id="75552" flags="" property="786"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc382" id="75554" flags="" property="787"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc383" id="75556" flags="" property="788"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc384" id="75558" flags="" property="789"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc385" id="75560" flags="" property="790"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc386" id="75562" flags="" property="791"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc387" id="75564" flags="" property="792"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc388" id="75566" flags="" property="793"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc389" id="75568" flags="" property="794"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc390" id="75570" flags="" property="795"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc391" id="75572" flags="" property="796"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc392" id="75574" flags="" property="797"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc393" id="75576" flags="" property="798"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc394" id="75578" flags="" property="799"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc395" id="75580" flags="" property="800"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc396" id="75582" flags="" property="801"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc397" id="75584" flags="" property="802"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc398" id="75586" flags="" property="803"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc399" id="75588" flags="" property="804"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc400" id="75590" flags="" property="805"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc401" id="75592" flags="" property="806"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc402" id="75594" flags="" property="807"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc403" id="75596" flags="" property="808"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc404" id="75598" flags="" property="809"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc405" id="75600" flags="" property="810"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc406" id="75602" flags="" property="811"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc407" id="75604" flags="" property="812"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc408" id="75606" flags="" property="813"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc409" id="75608" flags="" property="814"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc410" id="75610" flags="" property="815"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc411" id="75612" flags="" property="816"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc412" id="75614" flags="" property="817"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc413" id="75616" flags="" property="818"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc414" id="75618" flags="" property="819"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc415" id="75620" flags="" property="820"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc416" id="75622" flags="" property="821"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc417" id="75624" flags="" property="822"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc418" id="75626" flags="" property="823"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc419" id="75628" flags="" property="824"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc420" id="75630" flags="" property="825"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc421" id="75632" flags="" property="826"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc422" id="75634" flags="" property="827"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc423" id="75636" flags="" property="828"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc424" id="75638" flags="" property="829"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc425" id="75640" flags="" property="830"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc426" id="75642" flags="" property="831"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc427" id="75644" flags="" property="832"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc428" id="75646" flags="" property="833"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc429" id="75648" flags="" property="834"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc430" id="75650" flags="" property="835"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc431" id="75652" flags="" property="836"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc432" id="75654" flags="" property="837"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc433" id="75656" flags="" property="838"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc434" id="75658" flags="" property="839"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc435" id="75660" flags="" property="840"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc436" id="75662" flags="" property="841"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc437" id="75664" flags="" property="842"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc438" id="75666" flags="" property="843"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc439" id="75668" flags="" property="844"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc440" id="75670" flags="" property="845"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc441" id="75672" flags="" property="846"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc442" id="75674" flags="" property="847"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc443" id="75676" flags="" property="848"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc444" id="75678" flags="" property="849"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc445" id="75680" flags="" property="850"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc446" id="75682" flags="" property="851"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc447" id="75684" flags="" property="852"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc448" id="75686" flags="" property="853"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc449" id="75688" flags="" property="854"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc450" id="75690" flags="" property="855"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc451" id="75692" flags="" property="856"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc452" id="75694" flags="" property="857"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc453" id="75696" flags="" property="858"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc454" id="75698" flags="" property="859"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc455" id="75700" flags="" property="860"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc456" id="75702" flags="" property="861"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc457" id="75704" flags="" property="862"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc458" id="75706" flags="" property="863"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc459" id="75708" flags="" property="864"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc460" id="75710" flags="" property="865"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc461" id="75712" flags="" property="866"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc462" id="75714" flags="" property="867"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc463" id="75716" flags="" property="868"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc464" id="75718" flags="" property="869"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc465" id="75720" flags="" property="870"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc466" id="75722" flags="" property="871"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc467" id="75724" flags="" property="872"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc468" id="75726" flags="" property="873"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc469" id="75728" flags="" property="874"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc470" id="75730" flags="" property="875"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc471" id="75732" flags="" property="876"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc472" id="75734" flags="" property="877"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc473" id="75736" flags="" property="878"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc474" id="75738" flags="" property="879"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc475" id="75740" flags="" property="880"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc476" id="75742" flags="" property="881"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc477" id="75744" flags="" property="882"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc478" id="75746" flags="" property="883"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc479" id="75748" flags="" property="884"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc480" id="75750" flags="" property="885"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc481" id="75752" flags="" property="886"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc482" id="75754" flags="" property="887"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc483" id="75756" flags="" property="888"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc484" id="75758" flags="" property="889"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc485" id="75760" flags="" property="890"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc486" id="75762" flags="" property="891"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc487" id="75764" flags="" property="892"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc488" id="75766" flags="" property="893"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc489" id="75768" flags="" property="894"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc490" id="75770" flags="" property="895"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc491" id="75772" flags="" property="896"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc492" id="75774" flags="" property="897"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc493" id="75776" flags="" property="898"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc494" id="75778" flags="" property="899"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc495" id="75780" flags="" property="900"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc496" id="75782" flags="" property="901"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc497" id="75784" flags="" property="902"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc498" id="75786" flags="" property="903"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc499" id="75788" flags="" property="904"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc500" id="75790" flags="" property="905"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc501" id="75792" flags="" property="906"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc502" id="75794" flags="" property="907"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc503" id="75796" flags="" property="908"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc504" id="75798" flags="" property="909"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc505" id="75800" flags="" property="910"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc506" id="75802" flags="" property="911"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc507" id="75804" flags="" property="912"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc508" id="75806" flags="" property="913"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc509" id="75808" flags="" property="914"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc510" id="75810" flags="" property="915"/>
-        <Controllable name="property-http://sfztools.github.io/sfizz#cc511" id="75812" flags="" property="916"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz:sfzfile" id="91331" flags="NotAutomatable" property="393"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz:tuningfile" id="91332" flags="NotAutomatable" property="394"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc128" id="91334" flags="" property="533"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc129" id="91336" flags="" property="534"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc130" id="91338" flags="" property="535"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc131" id="91340" flags="" property="536"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc132" id="91342" flags="" property="537"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc133" id="91344" flags="" property="538"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc134" id="91346" flags="" property="539"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc135" id="91348" flags="" property="540"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc136" id="91350" flags="" property="541"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc137" id="91352" flags="" property="542"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc138" id="91354" flags="" property="543"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc139" id="91356" flags="" property="544"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc140" id="91358" flags="" property="545"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc141" id="91360" flags="" property="546"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc142" id="91362" flags="" property="547"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc143" id="91364" flags="" property="548"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc144" id="91366" flags="" property="549"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc145" id="91368" flags="" property="550"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc146" id="91370" flags="" property="551"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc147" id="91372" flags="" property="552"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc148" id="91374" flags="" property="553"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc149" id="91376" flags="" property="554"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc150" id="91378" flags="" property="555"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc151" id="91380" flags="" property="556"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc152" id="91382" flags="" property="557"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc153" id="91384" flags="" property="558"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc154" id="91386" flags="" property="559"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc155" id="91388" flags="" property="560"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc156" id="91390" flags="" property="561"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc157" id="91392" flags="" property="562"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc158" id="91394" flags="" property="563"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc159" id="91396" flags="" property="564"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc160" id="91398" flags="" property="565"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc161" id="91400" flags="" property="566"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc162" id="91402" flags="" property="567"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc163" id="91404" flags="" property="568"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc164" id="91406" flags="" property="569"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc165" id="91408" flags="" property="570"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc166" id="91410" flags="" property="571"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc167" id="91412" flags="" property="572"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc168" id="91414" flags="" property="573"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc169" id="91416" flags="" property="574"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc170" id="91418" flags="" property="575"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc171" id="91420" flags="" property="576"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc172" id="91422" flags="" property="577"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc173" id="91424" flags="" property="578"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc174" id="91426" flags="" property="579"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc175" id="91428" flags="" property="580"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc176" id="91430" flags="" property="581"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc177" id="91432" flags="" property="582"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc178" id="91434" flags="" property="583"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc179" id="91436" flags="" property="584"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc180" id="91438" flags="" property="585"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc181" id="91440" flags="" property="586"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc182" id="91442" flags="" property="587"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc183" id="91444" flags="" property="588"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc184" id="91446" flags="" property="589"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc185" id="91448" flags="" property="590"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc186" id="91450" flags="" property="591"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc187" id="91452" flags="" property="592"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc188" id="91454" flags="" property="593"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc189" id="91456" flags="" property="594"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc190" id="91458" flags="" property="595"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc191" id="91460" flags="" property="596"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc192" id="91462" flags="" property="597"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc193" id="91464" flags="" property="598"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc194" id="91466" flags="" property="599"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc195" id="91468" flags="" property="600"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc196" id="91470" flags="" property="601"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc197" id="91472" flags="" property="602"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc198" id="91474" flags="" property="603"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc199" id="91476" flags="" property="604"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc200" id="91478" flags="" property="605"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc201" id="91480" flags="" property="606"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc202" id="91482" flags="" property="607"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc203" id="91484" flags="" property="608"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc204" id="91486" flags="" property="609"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc205" id="91488" flags="" property="610"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc206" id="91490" flags="" property="611"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc207" id="91492" flags="" property="612"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc208" id="91494" flags="" property="613"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc209" id="91496" flags="" property="614"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc210" id="91498" flags="" property="615"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc211" id="91500" flags="" property="616"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc212" id="91502" flags="" property="617"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc213" id="91504" flags="" property="618"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc214" id="91506" flags="" property="619"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc215" id="91508" flags="" property="620"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc216" id="91510" flags="" property="621"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc217" id="91512" flags="" property="622"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc218" id="91514" flags="" property="623"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc219" id="91516" flags="" property="624"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc220" id="91518" flags="" property="625"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc221" id="91520" flags="" property="626"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc222" id="91522" flags="" property="627"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc223" id="91524" flags="" property="628"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc224" id="91526" flags="" property="629"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc225" id="91528" flags="" property="630"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc226" id="91530" flags="" property="631"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc227" id="91532" flags="" property="632"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc228" id="91534" flags="" property="633"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc229" id="91536" flags="" property="634"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc230" id="91538" flags="" property="635"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc231" id="91540" flags="" property="636"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc232" id="91542" flags="" property="637"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc233" id="91544" flags="" property="638"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc234" id="91546" flags="" property="639"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc235" id="91548" flags="" property="640"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc236" id="91550" flags="" property="641"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc237" id="91552" flags="" property="642"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc238" id="91554" flags="" property="643"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc239" id="91556" flags="" property="644"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc240" id="91558" flags="" property="645"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc241" id="91560" flags="" property="646"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc242" id="91562" flags="" property="647"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc243" id="91564" flags="" property="648"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc244" id="91566" flags="" property="649"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc245" id="91568" flags="" property="650"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc246" id="91570" flags="" property="651"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc247" id="91572" flags="" property="652"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc248" id="91574" flags="" property="653"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc249" id="91576" flags="" property="654"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc250" id="91578" flags="" property="655"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc251" id="91580" flags="" property="656"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc252" id="91582" flags="" property="657"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc253" id="91584" flags="" property="658"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc254" id="91586" flags="" property="659"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc255" id="91588" flags="" property="660"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc256" id="91590" flags="" property="661"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc257" id="91592" flags="" property="662"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc258" id="91594" flags="" property="663"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc259" id="91596" flags="" property="664"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc260" id="91598" flags="" property="665"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc261" id="91600" flags="" property="666"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc262" id="91602" flags="" property="667"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc263" id="91604" flags="" property="668"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc264" id="91606" flags="" property="669"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc265" id="91608" flags="" property="670"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc266" id="91610" flags="" property="671"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc267" id="91612" flags="" property="672"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc268" id="91614" flags="" property="673"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc269" id="91616" flags="" property="674"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc270" id="91618" flags="" property="675"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc271" id="91620" flags="" property="676"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc272" id="91622" flags="" property="677"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc273" id="91624" flags="" property="678"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc274" id="91626" flags="" property="679"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc275" id="91628" flags="" property="680"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc276" id="91630" flags="" property="681"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc277" id="91632" flags="" property="682"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc278" id="91634" flags="" property="683"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc279" id="91636" flags="" property="684"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc280" id="91638" flags="" property="685"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc281" id="91640" flags="" property="686"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc282" id="91642" flags="" property="687"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc283" id="91644" flags="" property="688"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc284" id="91646" flags="" property="689"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc285" id="91648" flags="" property="690"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc286" id="91650" flags="" property="691"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc287" id="91652" flags="" property="692"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc288" id="91654" flags="" property="693"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc289" id="91656" flags="" property="694"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc290" id="91658" flags="" property="695"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc291" id="91660" flags="" property="696"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc292" id="91662" flags="" property="697"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc293" id="91664" flags="" property="698"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc294" id="91666" flags="" property="699"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc295" id="91668" flags="" property="700"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc296" id="91670" flags="" property="701"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc297" id="91672" flags="" property="702"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc298" id="91674" flags="" property="703"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc299" id="91676" flags="" property="704"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc300" id="91678" flags="" property="705"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc301" id="91680" flags="" property="706"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc302" id="91682" flags="" property="707"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc303" id="91684" flags="" property="708"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc304" id="91686" flags="" property="709"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc305" id="91688" flags="" property="710"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc306" id="91690" flags="" property="711"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc307" id="91692" flags="" property="712"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc308" id="91694" flags="" property="713"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc309" id="91696" flags="" property="714"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc310" id="91698" flags="" property="715"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc311" id="91700" flags="" property="716"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc312" id="91702" flags="" property="717"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc313" id="91704" flags="" property="718"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc314" id="91706" flags="" property="719"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc315" id="91708" flags="" property="720"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc316" id="91710" flags="" property="721"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc317" id="91712" flags="" property="722"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc318" id="91714" flags="" property="723"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc319" id="91716" flags="" property="724"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc320" id="91718" flags="" property="725"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc321" id="91720" flags="" property="726"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc322" id="91722" flags="" property="727"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc323" id="91724" flags="" property="728"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc324" id="91726" flags="" property="729"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc325" id="91728" flags="" property="730"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc326" id="91730" flags="" property="731"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc327" id="91732" flags="" property="732"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc328" id="91734" flags="" property="733"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc329" id="91736" flags="" property="734"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc330" id="91738" flags="" property="735"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc331" id="91740" flags="" property="736"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc332" id="91742" flags="" property="737"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc333" id="91744" flags="" property="738"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc334" id="91746" flags="" property="739"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc335" id="91748" flags="" property="740"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc336" id="91750" flags="" property="741"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc337" id="91752" flags="" property="742"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc338" id="91754" flags="" property="743"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc339" id="91756" flags="" property="744"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc340" id="91758" flags="" property="745"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc341" id="91760" flags="" property="746"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc342" id="91762" flags="" property="747"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc343" id="91764" flags="" property="748"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc344" id="91766" flags="" property="749"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc345" id="91768" flags="" property="750"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc346" id="91770" flags="" property="751"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc347" id="91772" flags="" property="752"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc348" id="91774" flags="" property="753"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc349" id="91776" flags="" property="754"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc350" id="91778" flags="" property="755"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc351" id="91780" flags="" property="756"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc352" id="91782" flags="" property="757"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc353" id="91784" flags="" property="758"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc354" id="91786" flags="" property="759"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc355" id="91788" flags="" property="760"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc356" id="91790" flags="" property="761"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc357" id="91792" flags="" property="762"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc358" id="91794" flags="" property="763"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc359" id="91796" flags="" property="764"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc360" id="91798" flags="" property="765"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc361" id="91800" flags="" property="766"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc362" id="91802" flags="" property="767"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc363" id="91804" flags="" property="768"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc364" id="91806" flags="" property="769"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc365" id="91808" flags="" property="770"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc366" id="91810" flags="" property="771"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc367" id="91812" flags="" property="772"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc368" id="91814" flags="" property="773"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc369" id="91816" flags="" property="774"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc370" id="91818" flags="" property="775"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc371" id="91820" flags="" property="776"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc372" id="91822" flags="" property="777"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc373" id="91824" flags="" property="778"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc374" id="91826" flags="" property="779"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc375" id="91828" flags="" property="780"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc376" id="91830" flags="" property="781"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc377" id="91832" flags="" property="782"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc378" id="91834" flags="" property="783"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc379" id="91836" flags="" property="784"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc380" id="91838" flags="" property="785"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc381" id="91840" flags="" property="786"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc382" id="91842" flags="" property="787"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc383" id="91844" flags="" property="788"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc384" id="91846" flags="" property="789"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc385" id="91848" flags="" property="790"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc386" id="91850" flags="" property="791"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc387" id="91852" flags="" property="792"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc388" id="91854" flags="" property="793"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc389" id="91856" flags="" property="794"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc390" id="91858" flags="" property="795"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc391" id="91860" flags="" property="796"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc392" id="91862" flags="" property="797"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc393" id="91864" flags="" property="798"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc394" id="91866" flags="" property="799"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc395" id="91868" flags="" property="800"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc396" id="91870" flags="" property="801"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc397" id="91872" flags="" property="802"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc398" id="91874" flags="" property="803"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc399" id="91876" flags="" property="804"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc400" id="91878" flags="" property="805"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc401" id="91880" flags="" property="806"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc402" id="91882" flags="" property="807"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc403" id="91884" flags="" property="808"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc404" id="91886" flags="" property="809"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc405" id="91888" flags="" property="810"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc406" id="91890" flags="" property="811"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc407" id="91892" flags="" property="812"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc408" id="91894" flags="" property="813"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc409" id="91896" flags="" property="814"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc410" id="91898" flags="" property="815"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc411" id="91900" flags="" property="816"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc412" id="91902" flags="" property="817"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc413" id="91904" flags="" property="818"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc414" id="91906" flags="" property="819"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc415" id="91908" flags="" property="820"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc416" id="91910" flags="" property="821"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc417" id="91912" flags="" property="822"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc418" id="91914" flags="" property="823"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc419" id="91916" flags="" property="824"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc420" id="91918" flags="" property="825"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc421" id="91920" flags="" property="826"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc422" id="91922" flags="" property="827"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc423" id="91924" flags="" property="828"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc424" id="91926" flags="" property="829"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc425" id="91928" flags="" property="830"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc426" id="91930" flags="" property="831"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc427" id="91932" flags="" property="832"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc428" id="91934" flags="" property="833"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc429" id="91936" flags="" property="834"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc430" id="91938" flags="" property="835"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc431" id="91940" flags="" property="836"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc432" id="91942" flags="" property="837"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc433" id="91944" flags="" property="838"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc434" id="91946" flags="" property="839"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc435" id="91948" flags="" property="840"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc436" id="91950" flags="" property="841"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc437" id="91952" flags="" property="842"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc438" id="91954" flags="" property="843"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc439" id="91956" flags="" property="844"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc440" id="91958" flags="" property="845"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc441" id="91960" flags="" property="846"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc442" id="91962" flags="" property="847"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc443" id="91964" flags="" property="848"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc444" id="91966" flags="" property="849"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc445" id="91968" flags="" property="850"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc446" id="91970" flags="" property="851"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc447" id="91972" flags="" property="852"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc448" id="91974" flags="" property="853"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc449" id="91976" flags="" property="854"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc450" id="91978" flags="" property="855"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc451" id="91980" flags="" property="856"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc452" id="91982" flags="" property="857"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc453" id="91984" flags="" property="858"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc454" id="91986" flags="" property="859"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc455" id="91988" flags="" property="860"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc456" id="91990" flags="" property="861"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc457" id="91992" flags="" property="862"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc458" id="91994" flags="" property="863"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc459" id="91996" flags="" property="864"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc460" id="91998" flags="" property="865"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc461" id="92000" flags="" property="866"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc462" id="92002" flags="" property="867"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc463" id="92004" flags="" property="868"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc464" id="92006" flags="" property="869"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc465" id="92008" flags="" property="870"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc466" id="92010" flags="" property="871"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc467" id="92012" flags="" property="872"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc468" id="92014" flags="" property="873"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc469" id="92016" flags="" property="874"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc470" id="92018" flags="" property="875"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc471" id="92020" flags="" property="876"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc472" id="92022" flags="" property="877"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc473" id="92024" flags="" property="878"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc474" id="92026" flags="" property="879"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc475" id="92028" flags="" property="880"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc476" id="92030" flags="" property="881"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc477" id="92032" flags="" property="882"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc478" id="92034" flags="" property="883"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc479" id="92036" flags="" property="884"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc480" id="92038" flags="" property="885"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc481" id="92040" flags="" property="886"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc482" id="92042" flags="" property="887"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc483" id="92044" flags="" property="888"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc484" id="92046" flags="" property="889"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc485" id="92048" flags="" property="890"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc486" id="92050" flags="" property="891"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc487" id="92052" flags="" property="892"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc488" id="92054" flags="" property="893"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc489" id="92056" flags="" property="894"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc490" id="92058" flags="" property="895"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc491" id="92060" flags="" property="896"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc492" id="92062" flags="" property="897"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc493" id="92064" flags="" property="898"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc494" id="92066" flags="" property="899"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc495" id="92068" flags="" property="900"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc496" id="92070" flags="" property="901"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc497" id="92072" flags="" property="902"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc498" id="92074" flags="" property="903"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc499" id="92076" flags="" property="904"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc500" id="92078" flags="" property="905"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc501" id="92080" flags="" property="906"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc502" id="92082" flags="" property="907"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc503" id="92084" flags="" property="908"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc504" id="92086" flags="" property="909"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc505" id="92088" flags="" property="910"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc506" id="92090" flags="" property="911"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc507" id="92092" flags="" property="912"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc508" id="92094" flags="" property="913"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc509" id="92096" flags="" property="914"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc510" id="92098" flags="" property="915"/>
+        <Controllable name="property-http://sfztools.github.io/sfizz#cc511" id="92100" flags="" property="916"/>
       </Processor>
       <Processor id="650" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
         <Automation>
@@ -1950,7 +2010,7 @@
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state21">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state29">
           <Port symbol="enabled" value="0"/>
           <Port symbol="g_in" value="1"/>
           <Port symbol="g_out" value="3.1622781753540039"/>
@@ -2154,8 +2214,8 @@
         <Controllable name="Quality factor 7" id="27638" flags="" value="0" parameter="113" symbol="q_7"/>
         <Controllable name="Hue 7" id="27640" flags="" value="0.875" parameter="114" symbol="hue_7"/>
         <Controllable name="Equalizer decramping" id="27642" flags="" value="0" parameter="116" symbol="decramp"/>
-        <Controllable name="property-http://lsp-plug.in/plugins/lv2/para_equalizer_x8_stereo/ports#send" id="76043" flags="NotAutomatable" property="944"/>
-        <Controllable name="property-http://lsp-plug.in/plugins/lv2/para_equalizer_x8_stereo/ports#return" id="76044" flags="NotAutomatable" property="947"/>
+        <Controllable name="property-http://lsp-plug.in/plugins/lv2/para_equalizer_x8_stereo/ports#send" id="92331" flags="NotAutomatable" property="944"/>
+        <Controllable name="property-http://lsp-plug.in/plugins/lv2/para_equalizer_x8_stereo/ports#return" id="92332" flags="NotAutomatable" property="947"/>
       </Processor>
       <Processor id="655" name="Piano" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Piano" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
@@ -2415,7 +2475,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="4602" interpolation-style="Exponential" time-domain="AudioTime" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="4601" flags="GainLike" value="0.8363456130027771"/>
+        <Controllable name="gaincontrol" id="4601" flags="GainLike" value="0.64934778213500977"/>
       </Processor>
       <Processor id="4632" name="meter-Browser" active="1" user-latency="0" use-user-latency="0" type="meter"/>
       <Processor id="4633" name="Desktop" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Desktop" type="main-outs" role="Main">

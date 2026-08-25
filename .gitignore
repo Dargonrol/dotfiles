@@ -35,4 +35,7 @@
 !zathura/
 !zathura/**
 
+!nvim/
+!nvim/**
+
 !README.md

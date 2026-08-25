@@ -1,27 +1,719 @@
-[2026-06-04 08:09:50] [inf] [Program] Hey! This is Olympus.Sharp SECRET DEV VERSION, sure hope you're not investigating some cursed bug again...
-[2026-06-04 08:09:50] [dbg] [Program] root directory = /usr/lib/olympus
-[2026-06-04 08:09:50] [inf] [Program] New TCP connection: 127.0.0.1:43438
-[2026-06-04 08:09:50] [dbg] [Program] Executing setolympusversion
-[2026-06-04 08:09:51] [dbg] [Program] Executing getversionstring
-[2026-06-04 08:09:51] [dbg] [Program] Executing getrunningpath
-[2026-06-04 08:09:51] [dbg] [Program] Executing installmod
-[2026-06-04 08:09:51] [inf] [Program] New CmdTask: (installMod)(thread#9>sharp.lua:427<scenes/installer.lua:375)#1
-[2026-06-04 08:09:51] [dbg] [Cmd.Status] Downloading mod from https://gamebanana.com/mmdl/1642587
-[2026-06-04 08:09:51] [dbg] [Program] Executing getmodidtonamemap
-[2026-06-04 08:09:51] [dbg] [Program] Executing getmodidtocategorymap
-[2026-06-04 08:09:51] [dbg] [Cmd.Status] Downloading 1642587
-[2026-06-04 08:09:51] [dbg] [CmdGetModIdMap] Cache location set to: /home/dargonrol/.config/Olympus/cached-mod-ids-to-categories.json
-[2026-06-04 08:09:51] [dbg] [CmdGetModIdMap] Cache location set to: /home/dargonrol/.config/Olympus/cached-mod-ids-to-names.json
-[2026-06-04 08:09:51] [dbg] [Cmd.Status] 
-[2026-06-04 08:09:51] [dbg] [CmdGetModIdMap] Loading mod_ids_to_names.json from the Internet (apiMirror = False)
-[2026-06-04 08:09:51] [dbg] [CmdGetModIdMap] Loading mod_ids_to_categories.json from the Internet (apiMirror = False)
-[2026-06-04 08:09:52] [dbg] [Cmd.Status] Downloaded 2565282 bytes in 1.54 seconds.
-[2026-06-04 08:09:52] [dbg] [Cmd.Status] Parsing everest.yaml
-[2026-06-04 08:09:52] [dbg] [Cmd.Status] Moving mod to hor[2026-06-04 08:10:02] [dbg] [Program] Executing getversionstring
-[2026-06-04 08:10:04] [dbg] [Program] Executing launch
-[2026-06-04 08:10:04] [inf] [CmdLaunch] Starting Celeste process: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Celeste (without args)
-chmod: changing permissions of '/usr/lib/olympus/suppress-output': Operation not permitted
-] buffer, Int32 offset, Int32 count)
+[2026-08-18 07:14:06] [inf] [Program] Hey! This is Olympus.Sharp SECRET DEV VERSION, let's get going!
+[2026-08-18 07:14:06] [dbg] [Program] root directory = /usr/lib/olympus
+[2026-08-18 07:14:06] [inf] [Program] New TCP connection: 127.0.0.1:48340
+[2026-08-18 07:14:06] [dbg] [Program] Executing setolympusversion
+[2026-08-18 07:14:06] [dbg] [Program] Executing getversionstring
+[2026-08-18 07:14:06] [dbg] [Program] Executing getrunningpath
+[2026-08-18 07:14:06] [dbg] [Program] Executing getmodidtocategorymap
+[2026-08-18 07:14:06] [dbg] [Program] Executing getmodidtonamemap
+[2026-08-18 07:14:06] [dbg] [CmdGetModIdMap] Cache location set to: /home/dargonrol/.config/Olympus/cached-mod-ids-to-names.json
+[2026-08-18 07:14:06] [dbg] [CmdGetModIdMap] Cache location set to: /home/dargonrol/.config/Olympus/cached-mod-ids-to-categories.json
+[2026-08-18 07:14:06] [dbg] [CmdGetModIdMap] Loading mod_ids_to_categories.json from the Internet (apiMirror = False)
+[2026-08-18 07:14:06] [dbg] [CmdGetModIdMap] Loading mod_ids_to_names.json from the Internet (apiMirror = False)
+[2026-08-18 07:14:08] [dbg] [Program] Executing getversionstring
+[2026-08-18 07:14:10] [dbg] [Program] Executing installeverest
+[2026-08-18 07:14:10] [inf] [Program] New CmdTask: (installEverest)(thread#39>sharp.lua:427<scenes/installer.lua:375)#1
+[2026-08-18 07:14:10] [dbg] [Cmd.Status] Downloading metadata
+[2026-08-18 07:14:10] [dbg] [Cmd.Status] Downloading olympus-build.zip
+[2026-08-18 07:14:10] [dbg] [Cmd.Status] Downloading olympus-build.zip
+[2026-08-18 07:14:10] [dbg] [Cmd.Status] 
+[2026-08-18 07:14:12] [dbg] [Cmd.Status] Downloaded 73450545 bytes in 2.01 seconds.
+[2026-08-18 07:14:12] [dbg] [Cmd.Status] Unzipping olympus-build.zip
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping 170 files
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #0 / 170: everest-lib/FNA.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/FNA.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/FNA.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #1 / 170: everest-lib/FNA.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/FNA.pdb -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/FNA.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #2 / 170: everest-lib/gamecontrollerdb.txt
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/gamecontrollerdb.txt -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/gamecontrollerdb.txt
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #3 / 170: everest-lib/piton-runtime.yaml
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/piton-runtime.yaml -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/piton-runtime.yaml
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #4 / 170: everest-lib/lib64-win-x86/discord_game_sdk.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-win-x86/discord_game_sdk.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-win-x86/discord_game_sdk.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #5 / 170: everest-lib/lib64-win-x86/FAudio.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-win-x86/FAudio.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-win-x86/FAudio.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #6 / 170: everest-lib/lib64-win-x86/FNA3D.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-win-x86/FNA3D.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-win-x86/FNA3D.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #7 / 170: everest-lib/lib64-win-x86/libtheorafile.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-win-x86/libtheorafile.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-win-x86/libtheorafile.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #8 / 170: everest-lib/lib64-win-x86/SDL2.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-win-x86/SDL2.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-win-x86/SDL2.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #9 / 170: everest-lib/lib64-win-x86/steam_api.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-win-x86/steam_api.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-win-x86/steam_api.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #10 / 170: everest-lib/lib64-win-x86/Steamworks.NET.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-win-x86/Steamworks.NET.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-win-x86/Steamworks.NET.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #11 / 170: everest-lib/piton/piton-gui-macos_x64
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/piton/piton-gui-macos_x64 -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/piton/piton-gui-macos_x64
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #12 / 170: everest-lib/piton/piton-gui-win_x64.exe
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/piton/piton-gui-win_x64.exe -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/piton/piton-gui-win_x64.exe
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #13 / 170: everest-lib/piton/piton-gui-win_x86.exe
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/piton/piton-gui-win_x86.exe -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/piton/piton-gui-win_x86.exe
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #14 / 170: everest-lib/piton/piton-linux_x64
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/piton/piton-linux_x64 -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/piton/piton-linux_x64
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #15 / 170: everest-lib/lib64-osx/libdiscord_game_sdk.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-osx/libdiscord_game_sdk.dylib -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-osx/libdiscord_game_sdk.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #16 / 170: everest-lib/lib64-osx/libFAudio.0.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-osx/libFAudio.0.dylib -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-osx/libFAudio.0.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #17 / 170: everest-lib/lib64-osx/libFNA3D.0.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-osx/libFNA3D.0.dylib -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-osx/libFNA3D.0.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #18 / 170: everest-lib/lib64-osx/libMoltenVK.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-osx/libMoltenVK.dylib -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-osx/libMoltenVK.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #19 / 170: everest-lib/lib64-osx/libSDL2-2.0.0.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-osx/libSDL2-2.0.0.dylib -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-osx/libSDL2-2.0.0.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #20 / 170: everest-lib/lib64-osx/libsteam_api.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-osx/libsteam_api.dylib -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-osx/libsteam_api.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #21 / 170: everest-lib/lib64-osx/libtheorafile.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-osx/libtheorafile.dylib -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-osx/libtheorafile.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #22 / 170: everest-lib/lib64-osx/libvulkan.1.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-osx/libvulkan.1.dylib -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-osx/libvulkan.1.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #23 / 170: everest-lib/lib64-osx/Steamworks.NET.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-osx/Steamworks.NET.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-osx/Steamworks.NET.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #24 / 170: everest-lib/lib64-win-x64/discord_game_sdk.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-win-x64/discord_game_sdk.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-win-x64/discord_game_sdk.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #25 / 170: everest-lib/lib64-win-x64/FAudio.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-win-x64/FAudio.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-win-x64/FAudio.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #26 / 170: everest-lib/lib64-win-x64/fmod64.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-win-x64/fmod64.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-win-x64/fmod64.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #27 / 170: everest-lib/lib64-win-x64/fmodstudio64.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-win-x64/fmodstudio64.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-win-x64/fmodstudio64.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #28 / 170: everest-lib/lib64-win-x64/FNA3D.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-win-x64/FNA3D.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-win-x64/FNA3D.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #29 / 170: everest-lib/lib64-win-x64/libtheorafile.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-win-x64/libtheorafile.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-win-x64/libtheorafile.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #30 / 170: everest-lib/lib64-win-x64/SDL2.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-win-x64/SDL2.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-win-x64/SDL2.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #31 / 170: everest-lib/lib64-win-x64/steam_api64.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-win-x64/steam_api64.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-win-x64/steam_api64.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #32 / 170: everest-lib/lib64-win-x64/Steamworks.NET.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-win-x64/Steamworks.NET.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-win-x64/Steamworks.NET.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #33 / 170: everest-lib/lib64-linux/libdiscord_game_sdk.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-linux/libdiscord_game_sdk.so -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-linux/libdiscord_game_sdk.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #34 / 170: everest-lib/lib64-linux/libFAudio.so.0
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-linux/libFAudio.so.0 -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-linux/libFAudio.so.0
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #35 / 170: everest-lib/lib64-linux/libfmod_SDL.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-linux/libfmod_SDL.so -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-linux/libfmod_SDL.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #36 / 170: everest-lib/lib64-linux/libFNA3D.so.0
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-linux/libFNA3D.so.0 -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-linux/libFNA3D.so.0
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #37 / 170: everest-lib/lib64-linux/libSDL2-2.0.so.0
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-linux/libSDL2-2.0.so.0 -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-linux/libSDL2-2.0.so.0
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #38 / 170: everest-lib/lib64-linux/libsteam_api.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-linux/libsteam_api.so -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-linux/libsteam_api.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #39 / 170: everest-lib/lib64-linux/libtheorafile.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-linux/libtheorafile.so -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-linux/libtheorafile.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #40 / 170: everest-lib/lib64-linux/Steamworks.NET.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib64-linux/Steamworks.NET.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-linux/Steamworks.NET.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #41 / 170: everest-lib/lib-vanilla/FAudio.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib-vanilla/FAudio.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib-vanilla/FAudio.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #42 / 170: everest-lib/lib-vanilla/FNA.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib-vanilla/FNA.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib-vanilla/FNA.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #43 / 170: everest-lib/lib-vanilla/FNA.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib-vanilla/FNA.pdb -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib-vanilla/FNA.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #44 / 170: everest-lib/lib-vanilla/FNA3D.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib-vanilla/FNA3D.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib-vanilla/FNA3D.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #45 / 170: everest-lib/lib-vanilla/libtheorafile.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib-vanilla/libtheorafile.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib-vanilla/libtheorafile.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #46 / 170: everest-lib/lib-vanilla/SDL2.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib-vanilla/SDL2.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib-vanilla/SDL2.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #47 / 170: everest-lib/lib-vanilla/lib64/libFAudio.so.0
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib-vanilla/lib64/libFAudio.so.0 -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib-vanilla/lib64/libFAudio.so.0
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #48 / 170: everest-lib/lib-vanilla/lib64/libFNA3D.so.0
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib-vanilla/lib64/libFNA3D.so.0 -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib-vanilla/lib64/libFNA3D.so.0
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #49 / 170: everest-lib/lib-vanilla/lib64/libSDL2-2.0.so.0
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib-vanilla/lib64/libSDL2-2.0.so.0 -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib-vanilla/lib64/libSDL2-2.0.so.0
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #50 / 170: everest-lib/lib-vanilla/lib64/libtheorafile.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib-vanilla/lib64/libtheorafile.so -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib-vanilla/lib64/libtheorafile.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #51 / 170: everest-lib/lib-vanilla/osx/libFAudio.0.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib-vanilla/osx/libFAudio.0.dylib -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib-vanilla/osx/libFAudio.0.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #52 / 170: everest-lib/lib-vanilla/osx/libFNA3D.0.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib-vanilla/osx/libFNA3D.0.dylib -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib-vanilla/osx/libFNA3D.0.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #53 / 170: everest-lib/lib-vanilla/osx/libMoltenVK.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib-vanilla/osx/libMoltenVK.dylib -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib-vanilla/osx/libMoltenVK.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #54 / 170: everest-lib/lib-vanilla/osx/libSDL2-2.0.0.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib-vanilla/osx/libSDL2-2.0.0.dylib -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib-vanilla/osx/libSDL2-2.0.0.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #55 / 170: everest-lib/lib-vanilla/osx/libtheorafile.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib-vanilla/osx/libtheorafile.dylib -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib-vanilla/osx/libtheorafile.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #56 / 170: everest-lib/lib-vanilla/osx/libvulkan.1.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] everest-lib/lib-vanilla/osx/libvulkan.1.dylib -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib-vanilla/osx/libvulkan.1.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #57 / 170: EverestSplash/EverestSplash-linux
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] EverestSplash/EverestSplash-linux -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/EverestSplash/EverestSplash-linux
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #58 / 170: EverestSplash/EverestSplash-osx
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] EverestSplash/EverestSplash-osx -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/EverestSplash/EverestSplash-osx
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #59 / 170: EverestSplash/EverestSplash-win.exe
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] EverestSplash/EverestSplash-win.exe -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/EverestSplash/EverestSplash-win.exe
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #60 / 170: EverestSplash/EverestSplash-win64.exe
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] EverestSplash/EverestSplash-win64.exe -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/EverestSplash/EverestSplash-win64.exe
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #61 / 170: EverestSplash/EverestSplash.deps.json
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] EverestSplash/EverestSplash.deps.json -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/EverestSplash/EverestSplash.deps.json
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #62 / 170: EverestSplash/EverestSplash.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] EverestSplash/EverestSplash.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/EverestSplash/EverestSplash.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #63 / 170: EverestSplash/EverestSplash.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] EverestSplash/EverestSplash.pdb -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/EverestSplash/EverestSplash.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #64 / 170: EverestSplash/EverestSplash.runtimeconfig.json
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] EverestSplash/EverestSplash.runtimeconfig.json -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/EverestSplash/EverestSplash.runtimeconfig.json
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #65 / 170: EverestSplash/piton-runtime.yaml
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] EverestSplash/piton-runtime.yaml -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/EverestSplash/piton-runtime.yaml
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #66 / 170: piton-apphosts/linux
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] piton-apphosts/linux -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/piton-apphosts/linux
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #67 / 170: piton-apphosts/osx
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] piton-apphosts/osx -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/piton-apphosts/osx
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #68 / 170: piton-apphosts/win.x64.exe
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] piton-apphosts/win.x64.exe -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/piton-apphosts/win.x64.exe
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #69 / 170: piton-apphosts/win.x86.exe
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] piton-apphosts/win.x86.exe -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/piton-apphosts/win.x86.exe
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #70 / 170: runtimes/linux-x64/native/liblua54.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] runtimes/linux-x64/native/liblua54.so -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/runtimes/linux-x64/native/liblua54.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #71 / 170: runtimes/win-arm/native/lua54.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] runtimes/win-arm/native/lua54.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/runtimes/win-arm/native/lua54.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #72 / 170: runtimes/win-arm64/native/lua54.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] runtimes/win-arm64/native/lua54.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/runtimes/win-arm64/native/lua54.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #73 / 170: runtimes/osx/native/liblua54.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] runtimes/osx/native/liblua54.dylib -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/runtimes/osx/native/liblua54.dylib
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #74 / 170: runtimes/tvos/native/liblua54.framework/Info.plist
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] runtimes/tvos/native/liblua54.framework/Info.plist -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/runtimes/tvos/native/liblua54.framework/Info.plist
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #75 / 170: runtimes/tvos/native/liblua54.framework/liblua54
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] runtimes/tvos/native/liblua54.framework/liblua54 -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/runtimes/tvos/native/liblua54.framework/liblua54
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #76 / 170: runtimes/ios/native/liblua54.framework/Info.plist
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] runtimes/ios/native/liblua54.framework/Info.plist -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/runtimes/ios/native/liblua54.framework/Info.plist
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #77 / 170: runtimes/ios/native/liblua54.framework/liblua54
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] runtimes/ios/native/liblua54.framework/liblua54 -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/runtimes/ios/native/liblua54.framework/liblua54
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #78 / 170: runtimes/maccatalyst/native/liblua54.framework/Info.plist
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] runtimes/maccatalyst/native/liblua54.framework/Info.plist -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/runtimes/maccatalyst/native/liblua54.framework/Info.plist
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #79 / 170: runtimes/maccatalyst/native/liblua54.framework/liblua54
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] runtimes/maccatalyst/native/liblua54.framework/liblua54 -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/runtimes/maccatalyst/native/liblua54.framework/liblua54
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #80 / 170: runtimes/android-x64/native/liblua54.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] runtimes/android-x64/native/liblua54.so -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/runtimes/android-x64/native/liblua54.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #81 / 170: runtimes/android-arm/native/liblua54.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] runtimes/android-arm/native/liblua54.so -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/runtimes/android-arm/native/liblua54.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #82 / 170: runtimes/win-x86/native/lua54.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] runtimes/win-x86/native/lua54.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/runtimes/win-x86/native/lua54.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #83 / 170: runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #84 / 170: runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #85 / 170: runtimes/android-arm64/native/liblua54.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] runtimes/android-arm64/native/liblua54.so -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/runtimes/android-arm64/native/liblua54.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #86 / 170: runtimes/linux-arm64/native/liblua54.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] runtimes/linux-arm64/native/liblua54.so -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/runtimes/linux-arm64/native/liblua54.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #87 / 170: runtimes/win-x64/native/lua54.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] runtimes/win-x64/native/lua54.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/runtimes/win-x64/native/lua54.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #88 / 170: runtimes/android-x86/native/liblua54.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] runtimes/android-x86/native/liblua54.so -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/runtimes/android-x86/native/liblua54.so
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #89 / 170: Celeste-icon.png
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] Celeste-icon.png -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Celeste-icon.png
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #90 / 170: Celeste.Mod.mm.deps.json
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] Celeste.Mod.mm.deps.json -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Celeste.Mod.mm.deps.json
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #91 / 170: Celeste.Mod.mm.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] Celeste.Mod.mm.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Celeste.Mod.mm.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #92 / 170: Celeste.Mod.mm.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] Celeste.Mod.mm.pdb -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Celeste.Mod.mm.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #93 / 170: Celeste.Mod.mm.xml
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] Celeste.Mod.mm.xml -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Celeste.Mod.mm.xml
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #94 / 170: Celeste.xml
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] Celeste.xml -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Celeste.xml
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #95 / 170: DiscordGameSDK.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] DiscordGameSDK.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/DiscordGameSDK.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #96 / 170: DiscordGameSDK.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] DiscordGameSDK.pdb -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/DiscordGameSDK.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #97 / 170: DotNetZip.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] DotNetZip.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/DotNetZip.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #98 / 170: FNA.xml
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] FNA.xml -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/FNA.xml
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #99 / 170: Jdenticon.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] Jdenticon.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Jdenticon.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #100 / 170: KeraLua.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] KeraLua.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/KeraLua.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #101 / 170: MAB.DotIgnore.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MAB.DotIgnore.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MAB.DotIgnore.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #102 / 170: Microsoft.NET.HostModel.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] Microsoft.NET.HostModel.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Microsoft.NET.HostModel.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #103 / 170: Microsoft.Win32.SystemEvents.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] Microsoft.Win32.SystemEvents.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Microsoft.Win32.SystemEvents.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #104 / 170: MiniInstaller-linux
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MiniInstaller-linux -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MiniInstaller-linux
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #105 / 170: MiniInstaller-osx
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MiniInstaller-osx -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MiniInstaller-osx
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #106 / 170: MiniInstaller-win.exe
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MiniInstaller-win.exe -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MiniInstaller-win.exe
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #107 / 170: MiniInstaller-win64.exe
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MiniInstaller-win64.exe -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MiniInstaller-win64.exe
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #108 / 170: MiniInstaller.deps.json
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MiniInstaller.deps.json -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MiniInstaller.deps.json
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #109 / 170: MiniInstaller.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MiniInstaller.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MiniInstaller.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #110 / 170: MiniInstaller.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MiniInstaller.pdb -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MiniInstaller.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #111 / 170: MiniInstaller.runtimeconfig.json
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MiniInstaller.runtimeconfig.json -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MiniInstaller.runtimeconfig.json
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #112 / 170: Mono.Cecil.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] Mono.Cecil.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mono.Cecil.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #113 / 170: Mono.Cecil.Mdb.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] Mono.Cecil.Mdb.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mono.Cecil.Mdb.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #114 / 170: Mono.Cecil.Pdb.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] Mono.Cecil.Pdb.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mono.Cecil.Pdb.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #115 / 170: Mono.Cecil.Rocks.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] Mono.Cecil.Rocks.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mono.Cecil.Rocks.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #116 / 170: MonoMod.Backports.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.Backports.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.Backports.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #117 / 170: MonoMod.Core.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.Core.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.Core.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #118 / 170: MonoMod.Core.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.Core.pdb -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.Core.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #119 / 170: MonoMod.Core.xml
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.Core.xml -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.Core.xml
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #120 / 170: MonoMod.Iced.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.Iced.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.Iced.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #121 / 170: MonoMod.Iced.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.Iced.pdb -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.Iced.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #122 / 170: MonoMod.Iced.xml
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.Iced.xml -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.Iced.xml
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #123 / 170: MonoMod.ILHelpers.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.ILHelpers.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.ILHelpers.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #124 / 170: MonoMod.Patcher
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.Patcher -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.Patcher
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #125 / 170: MonoMod.Patcher.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.Patcher.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.Patcher.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #126 / 170: MonoMod.Patcher.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.Patcher.pdb -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.Patcher.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #127 / 170: MonoMod.Patcher.runtimeconfig.json
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.Patcher.runtimeconfig.json -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.Patcher.runtimeconfig.json
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #128 / 170: MonoMod.Patcher.xml
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.Patcher.xml -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.Patcher.xml
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #129 / 170: MonoMod.RuntimeDetour.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.RuntimeDetour.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.RuntimeDetour.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #130 / 170: MonoMod.RuntimeDetour.HookGen
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.RuntimeDetour.HookGen -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.RuntimeDetour.HookGen
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #131 / 170: MonoMod.RuntimeDetour.HookGen.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.RuntimeDetour.HookGen.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.RuntimeDetour.HookGen.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #132 / 170: MonoMod.RuntimeDetour.HookGen.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.RuntimeDetour.HookGen.pdb -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.RuntimeDetour.HookGen.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #133 / 170: MonoMod.RuntimeDetour.HookGen.runtimeconfig.json
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.RuntimeDetour.HookGen.runtimeconfig.json -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.RuntimeDetour.HookGen.runtimeconfig.json
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #134 / 170: MonoMod.RuntimeDetour.HookGen.xml
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.RuntimeDetour.HookGen.xml -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.RuntimeDetour.HookGen.xml
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #135 / 170: MonoMod.RuntimeDetour.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.RuntimeDetour.pdb -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.RuntimeDetour.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #136 / 170: MonoMod.RuntimeDetour.xml
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.RuntimeDetour.xml -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.RuntimeDetour.xml
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #137 / 170: MonoMod.Utils.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.Utils.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.Utils.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #138 / 170: MonoMod.Utils.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.Utils.pdb -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.Utils.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #139 / 170: MonoMod.Utils.xml
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] MonoMod.Utils.xml -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.Utils.xml
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #140 / 170: NETCoreifier.deps.json
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] NETCoreifier.deps.json -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/NETCoreifier.deps.json
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #141 / 170: NETCoreifier.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] NETCoreifier.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/NETCoreifier.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #142 / 170: NETCoreifier.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] NETCoreifier.pdb -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/NETCoreifier.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #143 / 170: Newtonsoft.Json.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] Newtonsoft.Json.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Newtonsoft.Json.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #144 / 170: NLua.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] NLua.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/NLua.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #145 / 170: NLua.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] NLua.pdb -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/NLua.pdb
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #146 / 170: piton-runtime.yaml
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] piton-runtime.yaml -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/piton-runtime.yaml
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #147 / 170: System.Drawing.Common.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] System.Drawing.Common.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/System.Drawing.Common.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #148 / 170: System.Security.Permissions.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] System.Security.Permissions.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/System.Security.Permissions.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #149 / 170: System.Windows.Extensions.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] System.Windows.Extensions.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/System.Windows.Extensions.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipping #150 / 170: YamlDotNet.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Unpack] YamlDotNet.dll -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/YamlDotNet.dll
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Unzipped 170 files
+[2026-08-18 07:14:13] [dbg] [Cmd.Status] Starting native MiniInstaller
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Ensuring /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MiniInstaller-linux is executable
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Running MiniInstaller executable: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MiniInstaller-linux
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Determined install platform: Linux
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Everest MiniInstaller
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Applying patch vanilla libraries
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Deleting system libraries
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Parsing Mono config file /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/orig/Celeste.exe.config
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Parsing Mono config file /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/orig/FNA.dll.config
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Copying native libraries from /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/orig/lib64 -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/lib64-linux
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Copying native libraries from /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/lib64-linux -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/lib64-linux
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Copying native libraries from /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/runtimes/linux-x64/native -> /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/lib64-linux
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Copied gamecontrollerdb.txt
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Loading Mono.Cecil
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Lazily loading /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mono.Cecil.dll
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Loading Mono.Cecil.Mdb
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Lazily loading /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mono.Cecil.Mdb.dll
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Loading Mono.Cecil.Pdb
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Lazily loading /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mono.Cecil.Pdb.dll
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Loading MonoMod.Utils.dll
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Lazily loading /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.Utils.dll
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Loading MonoMod
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Lazily loading /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.Patcher.dll
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Loading MonoMod.RuntimeDetour.dll
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Lazily loading /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.RuntimeDetour.dll
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Loading MonoMod.RuntimeDetour.HookGen
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Lazily loading /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MonoMod.RuntimeDetour.HookGen.dll
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Loading NETCoreifier
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Lazily loading /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/NETCoreifier.dll
+[2026-08-18 07:14:13] [dbg] [CmdInstallEverest] Converting /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/orig/FNA.dll to .NET Core
+[2026-08-18 07:14:14] [dbg] [CmdInstallEverest] Converting /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/orig/Celeste.exe to .NET Core
+[2026-08-18 07:14:16] [dbg] [CmdInstallEverest] Converting /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib/FNA.dll to .NET Core
+[2026-08-18 07:14:16] [dbg] [CmdInstallEverest] Running MonoMod for /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MiniInstallerWorkspace/FNA.dll
+[2026-08-18 07:14:16] [dbg] [CmdInstallEverest] MonoMod 0.0.0.0
+[2026-08-18 07:14:16] [dbg] [CmdInstallEverest] [MonoMod] Reading input file into module.
+[2026-08-18 07:14:16] [dbg] [CmdInstallEverest] [MonoMod] [Main] Reading mods list from arguments.
+[2026-08-18 07:14:16] [dbg] [CmdInstallEverest] [MonoMod] [ReadMod] Loading mod dir: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib
+[2026-08-18 07:14:16] [dbg] [CmdInstallEverest] [MonoMod] [ReadMod] Loading mod: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Celeste.Mod.mm.dll
+[2026-08-18 07:14:16] [dbg] [CmdInstallEverest] [MonoMod] [Main] mm.AutoPatch();
+[2026-08-18 07:14:16] [dbg] [CmdInstallEverest] [MonoMod] [AutoPatch] Parsing rules in loaded mods
+[2026-08-18 07:14:18] [dbg] [CmdInstallEverest] [MonoMod] [RulesModder] [Write] Writing modded module into output stream.
+[2026-08-18 07:14:18] [dbg] [CmdInstallEverest] [MonoMod] [Celeste.Mod.mm] Patching game dependency...
+[2026-08-18 07:14:18] [dbg] [CmdInstallEverest] [MonoMod] [AutoPatch] PrePatch pass
+[2026-08-18 07:14:18] [dbg] [CmdInstallEverest] [MonoMod] [AutoPatch] Patch pass
+[2026-08-18 07:14:18] [dbg] [CmdInstallEverest] [MonoMod] [AutoPatch] PatchRefs pass
+[2026-08-18 07:14:18] [dbg] [CmdInstallEverest] [MonoMod] [PostProcessor] PostProcessor pass #1
+[2026-08-18 07:14:18] [dbg] [CmdInstallEverest] [MonoMod] [PostProcessor] PostProcessor pass #2
+[2026-08-18 07:14:18] [dbg] [CmdInstallEverest] [MonoMod] [PostProcessor] PostProcessor pass #3
+[2026-08-18 07:14:18] [dbg] [CmdInstallEverest] [MonoMod] [Write] Writing modded module into output file.
+[2026-08-18 07:14:18] [dbg] [CmdInstallEverest] [MonoMod] [Main] Done.
+[2026-08-18 07:14:18] [dbg] [CmdInstallEverest] Running MonoMod for /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MiniInstallerWorkspace/Celeste.dll
+[2026-08-18 07:14:18] [dbg] [CmdInstallEverest] MonoMod 0.0.0.0
+[2026-08-18 07:14:18] [dbg] [CmdInstallEverest] [MonoMod] Reading input file into module.
+[2026-08-18 07:14:18] [dbg] [CmdInstallEverest] [MonoMod] [Main] Reading mods list from arguments.
+[2026-08-18 07:14:18] [dbg] [CmdInstallEverest] [MonoMod] [ReadMod] Loading mod dir: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib
+[2026-08-18 07:14:18] [dbg] [CmdInstallEverest] [MonoMod] [ReadMod] Loading mod: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Celeste.Mod.mm.dll
+[2026-08-18 07:14:18] [dbg] [CmdInstallEverest] [MonoMod] [Main] mm.AutoPatch();
+[2026-08-18 07:14:18] [dbg] [CmdInstallEverest] [MonoMod] [AutoPatch] Parsing rules in loaded mods
+[2026-08-18 07:14:20] [dbg] [CmdInstallEverest] [MonoMod] [RulesModder] [Write] Writing modded module into output stream.
+[2026-08-18 07:14:20] [dbg] [CmdInstallEverest] [MonoMod] [Celeste.Mod.mm] Patching game executable...
+[2026-08-18 07:14:20] [dbg] [CmdInstallEverest] [MonoMod] [AutoPatch] PrePatch pass
+[2026-08-18 07:14:20] [dbg] [CmdInstallEverest] [MonoMod] [AutoPatch] Patch pass
+[2026-08-18 07:14:20] [dbg] [CmdInstallEverest] [MonoMod] [AutoPatch] PatchRefs pass
+[2026-08-18 07:14:22] [dbg] [CmdInstallEverest] [MonoMod] [PostProcessor] PostProcessor pass #1
+[2026-08-18 07:14:22] [dbg] [CmdInstallEverest] [MonoMod] [PostProcessor] PostProcessor pass #2
+[2026-08-18 07:14:22] [dbg] [CmdInstallEverest] [MonoMod] [PostProcessor] PostProcessor pass #3
+[2026-08-18 07:14:22] [dbg] [CmdInstallEverest] [MonoMod] [PostProcessor] PostProcessor pass #4
+[2026-08-18 07:14:22] [dbg] [CmdInstallEverest] [MonoMod] [Write] Writing modded module into output file.
+[2026-08-18 07:14:23] [dbg] [CmdInstallEverest] [MonoMod] [Main] Done.
+[2026-08-18 07:14:23] [dbg] [CmdInstallEverest] Running MonoMod.RuntimeDetour.HookGen for /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MiniInstallerWorkspace/Celeste.dll
+[2026-08-18 07:14:23] [dbg] [CmdInstallEverest] MonoMod.RuntimeDetour.HookGen 24.0.0.0
+[2026-08-18 07:14:23] [dbg] [CmdInstallEverest] using MonoMod 0.0.0.0
+[2026-08-18 07:14:23] [dbg] [CmdInstallEverest] using MonoMod.RuntimeDetour 25.3.1.0
+[2026-08-18 07:14:23] [dbg] [CmdInstallEverest] [MonoMod] Reading input file into module.
+[2026-08-18 07:14:23] [dbg] [CmdInstallEverest] [MonoMod] [HookGen] Starting HookGenerator
+[2026-08-18 07:14:23] [dbg] [CmdInstallEverest] [MonoMod] [HookGen] Done.
+[2026-08-18 07:14:23] [dbg] [CmdInstallEverest] Running MonoMod for /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/MiniInstallerWorkspace/MMHOOK_Celeste.dll
+[2026-08-18 07:14:23] [dbg] [CmdInstallEverest] MonoMod 0.0.0.0
+[2026-08-18 07:14:23] [dbg] [CmdInstallEverest] [MonoMod] Reading input file into module.
+[2026-08-18 07:14:24] [dbg] [CmdInstallEverest] [MonoMod] [Main] Reading mods list from arguments.
+[2026-08-18 07:14:24] [dbg] [CmdInstallEverest] [MonoMod] [ReadMod] Loading mod dir: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/everest-lib
+[2026-08-18 07:14:24] [dbg] [CmdInstallEverest] [MonoMod] [ReadMod] Loading mod: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Celeste.Mod.mm.dll
+[2026-08-18 07:14:24] [dbg] [CmdInstallEverest] [MonoMod] [Main] mm.AutoPatch();
+[2026-08-18 07:14:24] [dbg] [CmdInstallEverest] [MonoMod] [AutoPatch] Parsing rules in loaded mods
+[2026-08-18 07:14:25] [dbg] [CmdInstallEverest] [MonoMod] [RulesModder] [Write] Writing modded module into output stream.
+[2026-08-18 07:14:25] [dbg] [CmdInstallEverest] [MonoMod] [Celeste.Mod.mm] Patching game dependency...
+[2026-08-18 07:14:25] [dbg] [CmdInstallEverest] [MonoMod] [AutoPatch] PrePatch pass
+[2026-08-18 07:14:25] [dbg] [CmdInstallEverest] [MonoMod] [AutoPatch] Patch pass
+[2026-08-18 07:14:25] [dbg] [CmdInstallEverest] [MonoMod] [AutoPatch] PatchRefs pass
+[2026-08-18 07:14:27] [dbg] [CmdInstallEverest] [MonoMod] [PostProcessor] PostProcessor pass #1
+[2026-08-18 07:14:27] [dbg] [CmdInstallEverest] [MonoMod] [PostProcessor] PostProcessor pass #2
+[2026-08-18 07:14:27] [dbg] [CmdInstallEverest] [MonoMod] [PostProcessor] PostProcessor pass #3
+[2026-08-18 07:14:27] [dbg] [CmdInstallEverest] [MonoMod] [Write] Writing modded module into output file.
+[2026-08-18 07:14:27] [dbg] [CmdInstallEverest] [MonoMod] [Main] Done.
+[2026-08-18 07:14:27] [dbg] [CmdInstallEverest] Combining Documentation
+[2026-08-18 07:14:27] [dbg] [CmdInstallEverest] Creating .NET runtime configuration files for /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Celeste.dll
+[2026-08-18 07:14:27] [dbg] [CmdInstallEverest] Binding Linux apphost /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Celeste
+[2026-08-18 07:14:27] [dbg] [CmdInstallEverest] 
+[2026-08-18 07:14:27] [dbg] [CmdInstallEverest] 
+[2026-08-18 07:14:27] [dbg] [CmdInstallEverest] MiniInstaller finished
+[2026-08-18 07:14:29] [dbg] [Program] Executing getversionstring
+[2026-08-18 07:14:29] [dbg] [Program] Executing getversionstring
+[2026-08-18 07:14:32] [dbg] [Program] Executing modlist
+[2026-08-18 07:14:32] [inf] [Program] New CmdTask: (modlist)(thread#108>sharp.lua:427<scenes/modlist.lua:1086)#1
+[2026-08-18 07:14:32] [dbg] [CmdGetModIdMap] Loading mod_ids_to_names.json from /home/dargonrol/.config/Olympus/cached-mod-ids-to-names.json
+[2026-08-18 07:14:32] [dbg] [CmdGetModIdMap] Loading mod_ids_to_categories.json from /home/dargonrol/.config/Olympus/cached-mod-ids-to-categories.json
+[2026-08-18 07:14:34] [dbg] [Program] Executing updateallmods
+[2026-08-18 07:14:34] [inf] [Program] New CmdTask: (updateAllMods)(thread#112>sharp.lua:427<modupdater.lua:28)#1
+[2026-08-18 07:14:34] [dbg] [CmdUpdateAllMods] Fetching mod updater database URL
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Downloading last versions list from https://maddie480.ovh/celeste/everest_update.yaml
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Downloaded 6024 item(s)
+[2026-08-18 07:14:35] [dbg] [CmdGetModIdMap] Loading mod_ids_to_names.json from /home/dargonrol/.config/Olympus/cached-mod-ids-to-names.json
+[2026-08-18 07:14:35] [dbg] [CmdGetModIdMap] Loading mod_ids_to_categories.json from /home/dargonrol/.config/Olympus/cached-mod-ids-to-categories.json
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod AdamsAddons: installed hash 461dc6978ae9608a, latest hash(es) fc980193d3dfb7ed
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod AdventureHelper: installed hash 0b8a1cbdd6e54a9b, latest hash(es) 0b8a1cbdd6e54a9b
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod AltSidesHelper: installed hash 3a563d92a6d3de74, latest hash(es) 3a563d92a6d3de74
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod Anonhelper: installed hash bdcce187c9e25780, latest hash(es) bdcce187c9e25780
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod ArphimigonsToyBox: installed hash f27a66bef5698246, latest hash(es) f27a66bef5698246
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod AurorasHelper: installed hash e92ca086e01aaf4b, latest hash(es) e92ca086e01aaf4b
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod bitsbolts: installed hash 3384c6f59007d03f, latest hash(es) 8c3a4be02093399c
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod BossesHelper: installed hash dd4413f56cc0b132, latest hash(es) dd4413f56cc0b132
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod BrokemiaHelper: installed hash 1a76f617f3fa0d57, latest hash(es) 1a76f617f3fa0d57
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod CanyonHelper: installed hash c5a0133a97b6f250, latest hash(es) c5a0133a97b6f250
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod CavernHelper: installed hash c8e0354f3a424f51, latest hash(es) c8e0354f3a424f51
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod CelesteTAS: installed hash 490dd1b34db0791a, latest hash(es) d16b815d03a50ee1
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod CherryHelper: installed hash 3ea953a8801652a0, latest hash(es) 3ea953a8801652a0
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod ChroniaHelper: installed hash 2b0b670820c4de37, latest hash(es) 2b5b710fce651c33
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod ChronoHelper: installed hash 699db43e27dbefd4, latest hash(es) 00707a5dc6eb8d60
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod CollabUtils2: installed hash 2d64dde8c99daa53, latest hash(es) 629857fe279f7cb0
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod CommunalHelper: installed hash 2c602fcf6a26b7d1, latest hash(es) cf04a69a53fc9963
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod ContortHelper: installed hash 075ac8f66079dc61, latest hash(es) 075ac8f66079dc61
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod corkr900GraphicsPack: installed hash 3e8570bdb7c57a29, latest hash(es) 057d994642ae60ed
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod CpopHelper: installed hash 9d1fa345a7ca6f68, latest hash(es) 9d1fa345a7ca6f68
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod CrossoverCollab: installed hash e1c473d73d3085d1, latest hash(es) e1c473d73d3085d1
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod CrossoverCollabAudio: installed hash 42f571362ad656f0, latest hash(es) 42f571362ad656f0
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod CrystallineHelper: installed hash 829d27a03457d859, latest hash(es) fe3a534235497463
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod DBBHelper: installed hash 2a8bcf62a0bf1b07, latest hash(es) 2a8bcf62a0bf1b07
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod DisplayMessageCommand: installed hash 3dc79bf90a51953f, latest hash(es) 3dc79bf90a51953f
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod DJMapHelper: installed hash 4a4929ba32ffc38b, latest hash(es) 4a4929ba32ffc38b
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod DoonvHelper: installed hash b347416868c1244c, latest hash(es) b347416868c1244c
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod EeveeHelper: installed hash 23d20e615847e0c4, latest hash(es) 23d20e615847e0c4
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod EmHelper: installed hash e6ee4a9e1c495090, latest hash(es) e6ee4a9e1c495090
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod EvaHelper: installed hash 2315a1707a9d8284, latest hash(es) 2315a1707a9d8284
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod ExtendedCameraDynamics: installed hash 27c6edfaaedcd6d2, latest hash(es) 27c6edfaaedcd6d2
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod ExtendedVariantMode: installed hash 69effb5b1a9b4e53, latest hash(es) aeb29173386318dd
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod FactoryHelper: installed hash e03c08ba54aba913, latest hash(es) e03c08ba54aba913
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod FancyTileEntities: installed hash c878c875f5aa7c14, latest hash(es) c878c875f5aa7c14
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod FemtoHelper: installed hash 763d43ccf2bf31dc, latest hash(es) b4d071bb8fb8c325
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod FlaglinesAndSuch: installed hash 7087a0c6fccac446, latest hash(es) c82de801122ce16a
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod Foxeline: installed hash 8cd261ccb911ac88, latest hash(es) 8cd261ccb911ac88
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod FrostHelper: installed hash d4d9285ed2026bc7, latest hash(es) 412feb8e47e325cd
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod GameHelper: installed hash dd2cf608204ab22c, latest hash(es) dd2cf608204ab22c
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod GravityHelper: installed hash 4ecee05df17ee8cc, latest hash(es) 4ecee05df17ee8cc
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod Hakurei Reimu: installed hash 01730e0bd7722fa5, latest hash(es) a1ac9cc3e5709701
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod HonlyHelper: installed hash 63cb16d7e31df4d4, latest hash(es) 63cb16d7e31df4d4
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod hornet_Skin: installed hash 6eea0284f744ca16, latest hash(es) f76ae5b1202c23c0
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod ImGuiHelper: installed hash 11f87c48ecade305, latest hash(es) d38500b32bb80371
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod InputDisplay: installed hash 2885de4d4c510b5e, latest hash(es) 2885de4d4c510b5e
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod InputHistory: installed hash a678ba0ea0aceaa8, latest hash(es) a678ba0ea0aceaa8
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod InputOverlay: installed hash 268d0a7dfff7cb62, latest hash(es) 268d0a7dfff7cb62
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod IsaGrabBag: installed hash 4cf5445d787bb453, latest hash(es) 4cf5445d787bb453
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod JackalHelper: installed hash 9a5e8cc70764ce5f, latest hash(es) 9a5e8cc70764ce5f
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod JungleHelper: installed hash a94d5aec72a9713f, latest hash(es) 2ac53da0ba11b4ce
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod Kelper: installed hash 340c857dd0023d99, latest hash(es) e0e8b77320b2eea6
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod KoseiHelper: installed hash e5beaa050f96d05b, latest hash(es) f6dd9b236c040c10
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod LollydesSjStuffs: installed hash be63344b25babb9f, latest hash(es) be63344b25babb9f
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod Long Name Helper by Helen, Helen's Helper, hELPER: installed hash 3c0030707a6cc400, latest hash(es) 3c0030707a6cc400
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod LuaCutscenes: installed hash 482b756b4abdbaf3, latest hash(es) 482b756b4abdbaf3
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod LunaticHelper: installed hash 684181314d7be3d6, latest hash(es) 684181314d7be3d6
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod MapperOptions: installed hash 2158a95d74866525, latest hash(es) 2158a95d74866525
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod MaxHelpingHand: installed hash 61c445bd087352d7, latest hash(es) 519f4bdf5467f383
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod memorialHelper: installed hash 328b779b6af5289d, latest hash(es) 328b779b6af5289d
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod Microlith57MiscellaneousMechanics: installed hash a8a486b1f9b92793, latest hash(es) 9b4e4de5c14f8f27
+[2026-08-18 07:14:35] [dbg] [CmdUpdateAllMods] Mod Monika's D-Sides Audio: installed hash e7fa67b055625b2b, latest hash(es) e7fa67b055625b2b
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod Monika's D-Sides: installed hash ab04a847b2272477, latest hash(es) ab04a847b2272477
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod MoreDasheline: installed hash 907d549bea281340, latest hash(es) 907d549bea281340
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod NerdHelper: installed hash ef06ff1dfb5ba128, latest hash(es) 1dfed2b43dd300f9
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod OutbackHelper: installed hash 232e88c56dcd6c63, latest hash(es) 232e88c56dcd6c63
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod PandorasBox: installed hash f6fd42823a801f81, latest hash(es) f6fd42823a801f81
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod ParrotDashSkin: installed hash a8c964e0fc02688d, latest hash(es) a8c964e0fc02688d
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod ParrotHelper: installed hash 5ac534d845181507, latest hash(es) 5ac534d845181507
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod PrismaticHelper: installed hash 2ad56e7c3ca3a77b, latest hash(es) 2ad56e7c3ca3a77b
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod probananahelper: installed hash b072d87177e2bb5c, latest hash(es) b072d87177e2bb5c
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod SafeRespawnCrumble: installed hash e3797157613744b4, latest hash(es) e3797157613744b4
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod SaladimHelper: installed hash e2ff6854ad75366e, latest hash(es) e2ff6854ad75366e
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod Sardine7: installed hash ea35fe697468ab86, latest hash(es) ea35fe697468ab86
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod ShroomHelper: installed hash 97602735bef49da6, latest hash(es) 97602735bef49da6
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod SkinModHelper: installed hash 25286b0d9e4c91b5, latest hash(es) 25286b0d9e4c91b5
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod SkinModHelperPlus: installed hash cd4d0ce585e7bedf, latest hash(es) cd4d0ce585e7bedf
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod SorbetHelper: installed hash d264481f14480d98, latest hash(es) d264481f14480d98
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod SpeedrunTool: installed hash 400d60622af88b63, latest hash(es) 4754769f025b7cea
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod Spekio's Toolbox: installed hash 70224e61497d59aa, latest hash(es) 70224e61497d59aa
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod SpirialisHelper: installed hash 4f3b825da1877960, latest hash(es) 4f3b825da1877960
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod Spooooky's Asset Pack: installed hash 9cb334db81f1534b, latest hash(es) 9cb334db81f1534b
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod StyleMaskHelper: installed hash f6ea16b291c96647, latest hash(es) f6ea16b291c96647
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod TASHelper: installed hash 09276a2a64f6e968, latest hash(es) 09276a2a64f6e968
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod TileLayoutAnchor: installed hash 2af92430126090b7, latest hash(es) 2af92430126090b7
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod VivHelper: installed hash 87ca6a10426860f2, latest hash(es) 87ca6a10426860f2
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod VortexHelper: installed hash 4ae9e8fc75c0f24f, latest hash(es) 4ae9e8fc75c0f24f
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod XaphanHelper: installed hash b79fb3ee84ef432a, latest hash(es) b79fb3ee84ef432a
+[2026-08-18 07:14:36] [dbg] [CmdUpdateAllMods] Mod YetAnotherHelper: installed hash 002dad0a7bd327ab, latest hash(es) 002dad0a7bd327ab
+[2026-08-18 07:14:36] [inf] [CmdUpdateAllMods] 23 update(s) available
+[2026-08-18 07:14:36] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1760731
+[2026-08-18 07:14:36] [dbg] [Cmd.Status] Downloading 1760731
+[2026-08-18 07:14:36] [dbg] [Cmd.Status] 
+[2026-08-18 07:14:37] [dbg] [Cmd.Status] Downloaded 273051 bytes in 1.13 seconds.
+[2026-08-18 07:14:37] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is fc980193d3dfb7ed, expected hash is fc980193d3dfb7ed
+[2026-08-18 07:14:37] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/AdamsAddons.zip
+[2026-08-18 07:14:37] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/AdamsAddons.zip
+[2026-08-18 07:14:37] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1758658
+[2026-08-18 07:14:37] [dbg] [Cmd.Status] Downloading 1758658
+[2026-08-18 07:14:37] [dbg] [Cmd.Status] 
+[2026-08-18 07:14:38] [dbg] [Cmd.Status] Downloaded 708931 bytes in 1.14 seconds.
+[2026-08-18 07:14:38] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is 8c3a4be02093399c, expected hash is 8c3a4be02093399c
+[2026-08-18 07:14:38] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/bitsbolts.zip
+[2026-08-18 07:14:38] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/bitsbolts.zip
+[2026-08-18 07:14:38] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1787502
+[2026-08-18 07:14:38] [dbg] [Cmd.Status] Downloading 1787502
+[2026-08-18 07:14:38] [dbg] [Cmd.Status] 
+[2026-08-18 07:14:39] [dbg] [Cmd.Status] Downloaded 959323 bytes in 1.13 seconds.
+[2026-08-18 07:14:39] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is d16b815d03a50ee1, expected hash is d16b815d03a50ee1
+[2026-08-18 07:14:39] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/CelesteTAS.zip
+[2026-08-18 07:14:39] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/CelesteTAS.zip
+[2026-08-18 07:14:39] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1787236
+[2026-08-18 07:14:39] [dbg] [Cmd.Status] Downloading 1787236
+[2026-08-18 07:14:39] [dbg] [Cmd.Status] 
+[2026-08-18 07:14:40] [dbg] [Cmd.Status] Downloaded 3949638 bytes in 1.41 seconds.
+[2026-08-18 07:14:40] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is 2b5b710fce651c33, expected hash is 2b5b710fce651c33
+[2026-08-18 07:14:40] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/ChroniaHelper.zip
+[2026-08-18 07:14:40] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/ChroniaHelper.zip
+[2026-08-18 07:14:40] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1778580
+[2026-08-18 07:14:40] [dbg] [Cmd.Status] Downloading 1778580
+[2026-08-18 07:14:40] [dbg] [Cmd.Status] 
+[2026-08-18 07:14:41] [dbg] [Cmd.Status] Downloaded 778006 bytes in 0.94 seconds.
+[2026-08-18 07:14:41] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is 00707a5dc6eb8d60, expected hash is 00707a5dc6eb8d60
+[2026-08-18 07:14:41] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/ChronoHelper.zip
+[2026-08-18 07:14:41] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/ChronoHelper.zip
+[2026-08-18 07:14:41] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1721882
+[2026-08-18 07:14:41] [dbg] [Cmd.Status] Downloading 1721882
+[2026-08-18 07:14:41] [dbg] [Cmd.Status] 
+[2026-08-18 07:14:42] [dbg] [Cmd.Status] Downloaded 5406848 bytes in 1.12 seconds.
+[2026-08-18 07:14:42] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is 629857fe279f7cb0, expected hash is 629857fe279f7cb0
+[2026-08-18 07:14:42] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/CollabUtils2.zip
+[2026-08-18 07:14:42] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/CollabUtils2.zip
+[2026-08-18 07:14:42] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1775162
+[2026-08-18 07:14:42] [dbg] [Cmd.Status] Downloading 1775162
+[2026-08-18 07:14:42] [dbg] [Cmd.Status] 
+[2026-08-18 07:14:45] [dbg] [Cmd.Status] Downloaded 20214604 bytes in 2.03 seconds.
+[2026-08-18 07:14:45] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is cf04a69a53fc9963, expected hash is cf04a69a53fc9963
+[2026-08-18 07:14:45] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/CommunalHelper.zip
+[2026-08-18 07:14:45] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/CommunalHelper.zip
+[2026-08-18 07:14:45] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1771973
+[2026-08-18 07:14:45] [dbg] [Cmd.Status] Downloading 1771973
+[2026-08-18 07:14:45] [dbg] [Cmd.Status] 
+[2026-08-18 07:14:46] [dbg] [Cmd.Status] Downloaded 1879098 bytes in 1.29 seconds.
+[2026-08-18 07:14:46] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is 057d994642ae60ed, expected hash is 057d994642ae60ed
+[2026-08-18 07:14:46] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/corkr900GraphicsPack.zip
+[2026-08-18 07:14:46] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/corkr900GraphicsPack.zip
+[2026-08-18 07:14:46] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1744902
+[2026-08-18 07:14:46] [dbg] [Cmd.Status] Downloading 1744902
+[2026-08-18 07:14:46] [dbg] [Cmd.Status] 
+[2026-08-18 07:14:47] [dbg] [Cmd.Status] Downloaded 659877 bytes in 0.96 seconds.
+[2026-08-18 07:14:47] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is fe3a534235497463, expected hash is fe3a534235497463
+[2026-08-18 07:14:47] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/CrystallineHelper.zip
+[2026-08-18 07:14:47] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/CrystallineHelper.zip
+[2026-08-18 07:14:47] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1785260
+[2026-08-18 07:14:47] [dbg] [Cmd.Status] Downloading 1785260
+[2026-08-18 07:14:47] [dbg] [Cmd.Status] 
+[2026-08-18 07:14:48] [dbg] [Cmd.Status] Downloaded 498461 bytes in 1.45 seconds.
+[2026-08-18 07:14:48] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is aeb29173386318dd, expected hash is aeb29173386318dd
+[2026-08-18 07:14:48] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/ExtendedVariantMode.zip
+[2026-08-18 07:14:48] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/ExtendedVariantMode.zip
+[2026-08-18 07:14:48] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1776026
+[2026-08-18 07:14:48] [dbg] [Cmd.Status] Downloading 1776026
+[2026-08-18 07:14:48] [dbg] [Cmd.Status] 
+[2026-08-18 07:15:04] [dbg] [Cmd.Status] Downloaded 11103153 bytes in 15.40 seconds.
+[2026-08-18 07:15:04] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is b4d071bb8fb8c325, expected hash is b4d071bb8fb8c325
+[2026-08-18 07:15:04] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/FemtoHelper.zip
+[2026-08-18 07:15:04] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/FemtoHelper.zip
+[2026-08-18 07:15:04] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1748534
+[2026-08-18 07:15:04] [dbg] [Cmd.Status] Downloading 1748534
+[2026-08-18 07:15:04] [dbg] [Cmd.Status] 
+[2026-08-18 07:15:05] [dbg] [Cmd.Status] Downloaded 701011 bytes in 1.13 seconds.
+[2026-08-18 07:15:05] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is c82de801122ce16a, expected hash is c82de801122ce16a
+[2026-08-18 07:15:05] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/FlaglinesAndSuch.zip
+[2026-08-18 07:15:05] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/FlaglinesAndSuch.zip
+[2026-08-18 07:15:05] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1774878
+[2026-08-18 07:15:05] [dbg] [Cmd.Status] Downloading 1774878
+[2026-08-18 07:15:05] [dbg] [Cmd.Status] 
+[2026-08-18 07:15:07] [dbg] [Cmd.Status] Downloaded 1153831 bytes in 2.31 seconds.
+[2026-08-18 07:15:07] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is 412feb8e47e325cd, expected hash is 412feb8e47e325cd
+[2026-08-18 07:15:07] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/FrostHelper.zip
+[2026-08-18 07:15:07] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/FrostHelper.zip
+[2026-08-18 07:15:07] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1238899
+[2026-08-18 07:15:07] [dbg] [Cmd.Status] Downloading 1238899
+[2026-08-18 07:15:07] [dbg] [Cmd.Status] 
+[2026-08-18 07:15:08] [dbg] [Cmd.Status] Downloaded 2033385 bytes in 1.27 seconds.
+[2026-08-18 07:15:08] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is a1ac9cc3e5709701, expected hash is a1ac9cc3e5709701
+[2026-08-18 07:15:08] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/Hakurei Reimu.zip
+[2026-08-18 07:15:08] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/Hakurei Reimu.zip
+[2026-08-18 07:15:08] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1720830
+[2026-08-18 07:15:08] [dbg] [Cmd.Status] Downloading 1720830
+[2026-08-18 07:15:08] [dbg] [Cmd.Status] 
+[2026-08-18 07:15:10] [dbg] [Cmd.Status] Downloaded 3348468 bytes in 1.43 seconds.
+[2026-08-18 07:15:10] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is f76ae5b1202c23c0, expected hash is f76ae5b1202c23c0
+[2026-08-18 07:15:10] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/hornet_Skin.zip
+[2026-08-18 07:15:10] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/hornet_Skin.zip
+[2026-08-18 07:15:10] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1714237
+[2026-08-18 07:15:10] [dbg] [Cmd.Status] Downloading 1714237
+[2026-08-18 07:15:10] [dbg] [Cmd.Status] 
+[2026-08-18 07:15:15] [dbg] [Cmd.Status] Downloaded 3259093 bytes in 4.95 seconds.
+[2026-08-18 07:15:15] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is d38500b32bb80371, expected hash is d38500b32bb80371
+[2026-08-18 07:15:15] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/ImGuiHelper.zip
+[2026-08-18 07:15:15] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/ImGuiHelper.zip
+[2026-08-18 07:15:15] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1721879
+[2026-08-18 07:15:15] [dbg] [Cmd.Status] Downloading 1721879
+[2026-08-18 07:15:15] [dbg] [Cmd.Status] 
+[2026-08-18 07:15:16] [dbg] [Cmd.Status] Downloaded 7584200 bytes in 1.71 seconds.
+[2026-08-18 07:15:16] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is 2ac53da0ba11b4ce, expected hash is 2ac53da0ba11b4ce
+[2026-08-18 07:15:16] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/JungleHelper.zip
+[2026-08-18 07:15:16] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/JungleHelper.zip
+[2026-08-18 07:15:16] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1767932
+[2026-08-18 07:15:16] [dbg] [Cmd.Status] Downloading 1767932
+[2026-08-18 07:15:16] [dbg] [Cmd.Status] 
+[2026-08-18 07:15:17] [dbg] [Cmd.Status] Downloaded 483514 bytes in 0.93 seconds.
+[2026-08-18 07:15:17] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is e0e8b77320b2eea6, expected hash is e0e8b77320b2eea6
+[2026-08-18 07:15:17] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/Kelper.zip
+[2026-08-18 07:15:17] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/Kelper.zip
+[2026-08-18 07:15:17] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1769508
+[2026-08-18 07:15:17] [dbg] [Cmd.Status] Downloading 1769508
+[2026-08-18 07:15:17] [dbg] [Cmd.Status] 
+[2026-08-18 07:15:19] [dbg] [Cmd.Status] Downloaded 1557273 bytes in 1.24 seconds.
+[2026-08-18 07:15:19] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is f6dd9b236c040c10, expected hash is f6dd9b236c040c10
+[2026-08-18 07:15:19] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/KoseiHelper.zip
+[2026-08-18 07:15:19] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/KoseiHelper.zip
+[2026-08-18 07:15:19] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1778093
+[2026-08-18 07:15:19] [dbg] [Cmd.Status] Downloading 1778093
+[2026-08-18 07:15:19] [dbg] [Cmd.Status] 
+[2026-08-18 07:15:20] [dbg] [Cmd.Status] Downloaded 963880 bytes in 1.02 seconds.
+[2026-08-18 07:15:20] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is 519f4bdf5467f383, expected hash is 519f4bdf5467f383
+[2026-08-18 07:15:20] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/MaxHelpingHand.zip
+[2026-08-18 07:15:20] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/MaxHelpingHand.zip
+[2026-08-18 07:15:20] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1746016
+[2026-08-18 07:15:20] [dbg] [Cmd.Status] Downloading 1746016
+[2026-08-18 07:15:20] [dbg] [Cmd.Status] 
+[2026-08-18 07:15:21] [dbg] [Cmd.Status] Downloaded 150102 bytes in 0.96 seconds.
+[2026-08-18 07:15:21] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is 9b4e4de5c14f8f27, expected hash is 9b4e4de5c14f8f27
+[2026-08-18 07:15:21] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/Microlith57MiscellaneousMechanics.zip
+[2026-08-18 07:15:21] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/Microlith57MiscellaneousMechanics.zip
+[2026-08-18 07:15:21] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1720044
+[2026-08-18 07:15:21] [dbg] [Cmd.Status] Downloading 1720044
+[2026-08-18 07:15:21] [dbg] [Cmd.Status] 
+[2026-08-18 07:15:21] [dbg] [Cmd.Status] Downloaded 38839 bytes in 0.65 seconds.
+[2026-08-18 07:15:21] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is 1dfed2b43dd300f9, expected hash is 1dfed2b43dd300f9
+[2026-08-18 07:15:21] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/NerdHelper.zip
+[2026-08-18 07:15:21] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/NerdHelper.zip
+[2026-08-18 07:15:21] [inf] [CmdUpdateAllMods] Downloading mod from https://gamebanana.com/mmdl/1769622
+[2026-08-18 07:15:21] [dbg] [Cmd.Status] Downloading 1769622
+[2026-08-18 07:15:21] [dbg] [Cmd.Status] 
+[2026-08-18 07:15:22] [dbg] [Cmd.Status] Downloaded 330105 bytes in 1.04 seconds.
+[2026-08-18 07:15:22] [dbg] [CmdUpdateAllMods] Verifying checksum: actual hash is 4754769f025b7cea, expected hash is 4754769f025b7cea
+[2026-08-18 07:15:22] [dbg] [CmdUpdateAllMods] Deleting mod .zip: /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/SpeedrunTool.zip
+[2026-08-18 07:15:22] [dbg] [CmdUpdateAllMods] Moving /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/mod-update.zip to /mnt/games_nvme/SteamLibrary/steamapps/common/Celeste/Mods/SpeedrunTool.zip
+[2026-08-18 07:15:22] [dbg] [Program] Executing modlist
+[2026-08-18 07:15:22] [inf] [Program] New CmdTask: (modlist)(thread#400>sharp.lua:427<scenes/modlist.lua:1086)#1
+[2026-08-18 07:15:22] [dbg] [CmdGetModIdMap] Loading mod_ids_to_names.json from /home/dargonrol/.config/Olympus/cached-mod-ids-to-names.json
+[2026-08-18 07:15:22] [dbg] [CmdGetModIdMap] Loading mod_ids_to_categories.json from /home/dargonrol/.config/Olympus/cached-mod-ids-to-categories.json
+[2026-08-18 07:15:27] [dbg] [Program] Executing getversionstring
+[2026-08-18 07:15:48] [dbg] [Program] Executing installmod
+[2026-08-18 07:15:48] [inf] [Program] New CmdTask: (installMod)(thread#484>sharp.lua:427<scenes/installer.lua:375)#1
+[2026-08-18 07:15:48] [dbg] [Cmd.Status] Downloading mod from https://gamebanana.com/dl/1750175
+[2026-08-18 07:15:48] [dbg] [Cmd.Status] Downloading 1750175
+[2026-08-18 07:15:48] [dbg] [Cmd.Status] 
+[2026-08-18 07:15:49] [dbg] [Cmd.Status] Downloaded 554827 bytes in 1.25 seconds.
+[2026-08-18 07:15:49] [dbg] [Cmd.Status] Parsing everest.yaml
+[2026-08-18 07:15:49] [dbg] [Cmd.Status] Moving mod to ConsistencyTracker.zip
+[2026-08-18 07:15:49] [dbg] [Cmd.Status] Successfully installed ConsistencyTracker
+[2026-08-18 07:16:03] [dbg] [Program] Executing installmod
+[2026-08-18 07:16:03] [inf] [Program] New CmdTask: (installMod)(thread#554>sharp.lua:427<scenes/installer.lua:375)#1
+[2026-08-18 07:16:03] [dbg] [Cmd.Status] Downloading mod from https://gamebanana.com/dl/999235
+[2026-08-18 07:16:03] [dbg] [Cmd.Status] Downloading 999235
+[2026-08-18 07:16:03] [dbg] [Cmd.Status] 
+[2026-08-18 07:16:04] [dbg] [Cmd.Status] Downloaded 113552 bytes in 0.96 seconds.
+[2026-08-18 07:16:04] [dbg] [Cmd.Status] Parsing everest.yaml
+[2026-08-18 07:16:04] [dbg] [Cmd.Status] Moving mod to Golden QOL.zip
+[2026-08-18 07:16:04] [dbg] [Cmd.Status] Successfully installed Golden QOL
+[2026-08-18 07:16:13] [dbg] [Program] Executing getversionstring
+[2026-08-18 07:57:56] [err] [Program] Failed reading from 127.0.0.1:48340: System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+ ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
    --- End of inner exception stack trace ---
    at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
    at System.IO.StreamReader.ReadBuffer()
